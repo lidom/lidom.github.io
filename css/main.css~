@@ -41,14 +41,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-#contact {
-  float: right;
-  width: 15em;
-  padding: 0 0 0 5px;
-  margin-left: 1em;
-  border-left: 3px solid #668040;
-}
-#contact ul {list-style: none; margin: 0;}
-#contact li {margin: 0.5em 0 0 0;}
-#contact h2 {margin: 0 0 0 0; border-left: none; padding-left: 0;}
-#contact p  {margin-bottom: 0; font-weight: bold;}

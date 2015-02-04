@@ -10,21 +10,21 @@
 	<div id="contact">
 		<img src="me.jpg" width="150" height="209" />
 		<ul>
-		<li><a href="mailto:liebl.dominik@gmail.com">liebl.dominik@gmail.com</a> / 
-		<a href="mailto:dliebl@uni-bonn.de">dliebl@uni-bonn.de</a></li>
-		<!-- <li>Mobile: (515) 450 8171</li> -->
+		<li><a href="mailto:h.wickham@gmail.com">h.wickham@gmail.com</a> / 
+		<a href="mailto:hadley@rice.edu">hadley@rice.edu</a></li>
+		<li>Mobile: (515) 450 8171</li>
 		<li>Work: (713) 348 2278</li>
-		<!-- <li>Skype: hadleywickham</li> -->
+		<li>Skype: hadleywickham</li>
 		<li>Duncan Hall 2058, Rice University, Houston TX 77005</li>
 		</ul></p>
 	</div>
 		<!-- <nav> -->
-    		<!-- <ul> -->
-        	<!-- 	<li><a href="/">Home</a></li> -->
-	        <!-- 	<li><a href="/about">About</a></li> -->
-        	<!-- 	<li><a href="/cv">CV</a></li> -->
-        	<!-- 	<li><a href="/blog">Blog</a></li> -->
-    		<!-- </ul> -->
+    		<!-- <ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<!-- <li><a href="/blog">Blog</a></li> -->
+    		<!-- </ul>  -->
 		<!-- </nav> -->
 		<div class="container">
     		<div class="blurb">

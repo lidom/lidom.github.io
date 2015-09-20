@@ -4,10 +4,10 @@
 baseurl: /harmony
 
 # Site live URL
-url: http://gayan.me
+#url: http://lidom.github.io/
 
 # Localhost 
-# url: http://127.0.0.1:4000  
+url: http://127.0.0.1:4000  
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
@@ -51,12 +51,12 @@ permalink:        pretty
 
 exclude: 
   - CNAME
-  - Gemfile
+#  - Gemfile
   - Rakefile
   - README.md
   - .gitignore
   - .sass-cache
-  - Gemfile.lock
+#  - Gemfile.lock
 
 # Sass conversion configs
 sass:

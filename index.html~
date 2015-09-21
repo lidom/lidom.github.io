@@ -9,13 +9,13 @@ description: Dominik Liebl is an Associate Professor for Statistics at the Unive
 <!-- <div class="jumbotron"> -->
 <div class="row marketing">
 	<div class="col-sm-4">
-	<img  class="img-circle avatar" alt="Dominik Liebl" src="img/Liebl_Dominik_001_SW.JPG" width=100>
+	<img  class="img-circle avatar" alt="Dominik Liebl" src="img/Liebl_Dominik_001_SW.JPG" width=150>
 	</div>
 	<div itemscope itemtype="http://data-vocabulary.org/Person" class="col-sm-8">
 	<p class="lead">Hi, I'm <span itemprop="name">Dominik Liebl</span>. A Statistican with his roots in economics.</p>
 	<p>Currently, I'm an <span itemprop="title">Associate Professor</span> for <span itemprop="title">Statistics</span> at <span itemprop="affiliation">the <a href="http://www.econ.uni-bonn.de/teaching?set_language=en">University of Bonn</a></span>. </p>
 	
-	<p><a href="contact">Drop me a line</a> about your project if you're interested in working with me.</p>
+	<p>My research interests lie in <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">functional data analysis</a>, <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">semi- and non-parametric statistics</a> applied to real data problems mainly in economics.  <a href="contact">Drop me a line</a> about your project if you're interested in working with me.</p>
 	</div>
 </div>
 <!-- </div> -->

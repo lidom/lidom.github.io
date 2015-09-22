@@ -34,7 +34,8 @@ description: Current CV for Dominik Liebl.
 				</p>
 				
 				<h2>Professional Employment</h2>
-				<p><strong>Associate Professor for Statistics, University of Bonn, 2014-present</strong></p>
+				<ul>	
+				<li><strong>Associate Professor for Statistics, University of Bonn, 2014-present</strong></li>
 				<!-- <ul>
 				<li>Lead front end development, UI design, usability, and accessibility for over 50 web assets including open access journals, monographs and websites hosted on a variety of platforms with a variety of internal and external stakeholders.</li>
 				<li>Led the design and development for <a href="http://www.publishing.umich.edu" title="Michigan Publishing">Michigan Publishing's consolidated branding</a>, including wireframes, responsive web design, and WCAG compliance.</li>
@@ -73,7 +74,7 @@ description: Current CV for Dominik Liebl.
 				<h2>Technology Applications and Expertise</h2>
 					<dl class="dl-horizontal">
 						<dt>Specialized Skills</dt>
-						<dd> fluent: R/S-plus, basic: C++, Fortran, and Java</dd>
+						<dd> fluent: R/S-plus <br> basic: C++, Fortran, and Java</dd>
 					</dl>
 					<!--<dl class="dl-horizontal">
 						<dt>Markup/Programming</dt>

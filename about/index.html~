@@ -6,10 +6,10 @@ description: Credits and information about the website lidom.github.io, the pers
 
   <div class="about">
     
-    <p>lidom.github.io is:</p>
+    <p>www.dliebl.com:</p>
     
       <ul class="list-unstyled">
-        <li>Licensed under under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</li>
+        <li>Licensed under under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</li>
         <li>Marked up with <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fjmcglone.com%2F" title="HTML5 Validator">W3C validated HTML5</a></li>
         <li><a href="http://www.w3.org/TR/WCAG20/" title="WCAG 2.0">WCAG 2.0</a> compliant</li>
         <li><a href="http://alistapart.com/article/responsive-web-design" title="Responsive Web Design at A List Apart">Responsive</a> and compatible with a variety of devices</li>
@@ -17,6 +17,6 @@ description: Credits and information about the website lidom.github.io, the pers
         <li>Using typefaces <a href="http://www.google.com/fonts/specimen/Merriweather" title ="Merriweather">Merriweather</a> by <a href="https://plus.google.com/106288796449831139244/about" title="Eben Sorkin">Eben Sorkin</a> and <a href="http://www.google.com/fonts/specimen/Montserrat" title="Montserrat">Montserrat</a> by <a href="http://www.zkysky.com.ar/" title="ZkySky Design">Julieta Ulanovsky</a></li>
         <li>Powered by <a href="http://jekyllrb.com/" title="Jekyll">Jekyll</a></li>
         <li>Hosted on <a href="http://github.com/lidom/lidom.github.io" title="This site hosted on GitHub">GitHub</a> thanks to <a href="http://pages.github.com/" title="GitHub Pages">GitHub Pages</a></li>
-	<li>This homepage is a derivative of the webpage <a href="http://jmcglone.com" >jmcglone.com</a> used under CC by <a href="http://jmcglone.com" >Jonathan McGlone</a>.</li>
+	<li>A derivative of the webpage <a href="http://jmcglone.com" >jmcglone.com</a> used under CC by <a href="http://jmcglone.com" >Jonathan McGlone</a>.</li>
       </ul> 
   </div>

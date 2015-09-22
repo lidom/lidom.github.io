@@ -30,52 +30,52 @@ description: Current CV for Dominik Liebl.
 				<h2>Degrees</h2>
 				<p><strong>PhD, University of Cologne, 2013</strong></p>
 				<p>
-				<strong><abbr title="Equivalent to a master's degree in economics.">Dipl. Vw</abbr>, University of Bonn, 2008</strong><br>
+				<strong><abbr title="Equivalent to a master's degree in economics.">Dipl. Vw.</abbr>, University of Bonn, 2008</strong><br>
 				</p>
 				
 				<h2>Professional Employment</h2>
-				<p><strong>Front End Developer &amp; UI Designer, Michigan Publishing, University of Michigan, Ann Arbor, 2013-present</strong></p>
-				<ul>
+				<p><strong>Associate Professor for Statistics, University of Bonn, 2014-present</strong></p>
+				<!-- <ul>
 				<li>Lead front end development, UI design, usability, and accessibility for over 50 web assets including open access journals, monographs and websites hosted on a variety of platforms with a variety of internal and external stakeholders.</li>
 				<li>Led the design and development for <a href="http://www.publishing.umich.edu" title="Michigan Publishing">Michigan Publishing's consolidated branding</a>, including wireframes, responsive web design, and WCAG compliance.</li>
 				<li>Lead UX, UI design, and front-end development for a Mellon-funded <a href="http://www.publishing.umich.edu/projects/hydra/" title="Hydra/Fedora Mellon Grant">open-source platform that will enable the publication and preservation of digitally enriched humanities monographs</a>. The platform will enable digital publishing fully-encoded XML in <a href="http://projecthydra.org/" title="Project Hydra">Hydra powered Fedora repositories</a>.</li>
 				<li>Develop scripts and improve workflows for converting and publishing content in specific XML schemas.</li>
-				</ul>
+				</ul>-->
 				
-				<p><strong>Digital Publishing Project Manager, Michigan Publishing, University of Michigan, Ann Arbor, 2012-2013</strong></p>
-				<ul>
+				<p><strong>Postdoc, University of Brussels, 2013-2014</strong></p>
+				<!-- <ul>
 				<li>Project manager for the development, creation, and management of the NEH, CDC, and Robert Wood Johnson Foundation funded <a href="http://www.influenzaarchive.org" title="The American Influenza Epidemic of 1918-1919: A Digital Encyclopedia">The American Influenza Epidemic of 1918-1919: A Digital Encyclopedia</a>. The project consists of a collection of over 16,000 freely available historical documents and photographs complemented with essays exploring how various U.S. cities reacted to the 1918 influenza epidemic.</li> 
 				<li>Managed the web conversion and publication processes for a stable of open access journals published and hosted by Michigan Publishing.</li>
 				<li>Developed scripts and improved workflows for converting and publishing content in specific XML schemas.</li>
-				</ul>
+				</ul>-->
 				
-				<p><strong>Scholarly Communications Librarian, Wayne State University Library System, Wayne State University, Detroit, 2010-2012</strong></p>
-				<ul>
+				<p><strong>Research Assistant, University of Cologne, 2010-2013</strong></p>
+				<!-- <ul>
 					<li>Project manager for <a href="http://digitalcommons.wayne.edu" title="DigitalCommons@WSU">Wayne State University Institutional Repository</a> and activities; provided the strategic planning, day-to-day management, staff/department education, marketing and promotion for WSU’s institutional repository.</li>
 					<li>Collaborated with WSU Press to plan, implement, and manage <a href="http://digitalcommons.wayne.edu/wsupress/" title="WSU Press Journals">online subscription based journals program</a>; managed and developed back-end work flow to migrate 6 peer-reviewed journals to Digital Commons; created workshops and training for editorial staff; developed digital publishing internship.</li>
 					<li>Created and led the WSU Scholarly Communications Team, managing projects, outreach, marketing, and other scholarly communications initiatives; coordinated and led first WSU Open Access Week.</li>
 					<li>Researched, planned, implemented, and manage <a href="http://digitalcommons.wayne.edu/etds/" title="ETDs@WSU">open access theses and dissertations program</a>; copyright and permissions management; collaboration with Graduate School, ProQuest, and library departments; established data transformation workflows, involving XSLT transformations of XML.</li>
 					<li>Researched, planned, implemented, and manage faculty self-archiving program; developed workflows and services to handle permissions and rights clearance, document reformatting, and publication deposits to Digital Commons for faculty and staff; hired, trained, and supervised two undergraduate and two graduate interns; developed workshops on self-archiving and author’s rights for librarians, faculty, and graduate students.</li>
-				</ul>
+				</ul> -->
 				
-				<p><strong>Digital Projects Librarian, Wayne State University Library System, Wayne State University, 2008-2010</strong></p>
-				<ul>
+				<p><strong>Scholar at the Cologne Graduate School (CGS), University of Cologne, 2008-2010</strong></p>
+				<!--<ul>
 					<li>Managed digital collection of over 300,000 digital images, developing web-services to improve access and usability.</li>
 					<li>Collaborated with the Smithsonian’s Freer Sackler Gallery, <a href="http://peacockroom.wayne.edu/" title="Story of the Beautiful">developing and implementing a digital project</a> that brought the Peacock Room and its collection to a digital environment.</li>
 					<li>Project manager for NEH funded grant to build presentation tools for digital collection software.</li>
 					<li>Assisted in the development and maintenance of Wayne State University Library’s website, including a large-scale project to assess, re-design, build, and implement a new library website.</li>
 					<li>Project manager for Wayne State University Institutional Repository and activities; provided the strategic planning, day-to-day management, staff/department education, marketing and promotion for WSU’s institutional repository.</li>
-				</ul>
+				</ul> -->
 				
-				<p><strong>Freelance Web Developer, 2005-present</strong></p>
-					<p>Providing small-scale web design, development, and consulting services for publishers, academic digital humanities projects, and other digital publishing ventures.</p>
+				<p><strong>Freelance Statistical Consultant, 2013-present</strong></p>
+					<!--<p>Providing small-scale web design, development, and consulting services for publishers, academic digital humanities projects, and other digital publishing ventures.</p>-->
 				
 				<h2>Technology Applications and Expertise</h2>
 					<dl class="dl-horizontal">
 						<dt>Specialized Skills</dt>
-						<dd>User Interface Design, Usability Testing, Front-End Web Development, Web Design, Web Analytics, Digital Publishing Workflows, Digital Preservation</dd>
+						<dd> fluent: R/S-plus, basic: C++, Fortran, and Java</dd>
 					</dl>
-					<dl class="dl-horizontal">
+					<!--<dl class="dl-horizontal">
 						<dt>Markup/Programming</dt>
 						<dd>XTHML, HTML5, CSS, CSS3, JavaScript, XML, XSLT, PHP, Perl, Ruby, MySQL</dd>
 					</dl>
@@ -90,7 +90,7 @@ description: Current CV for Dominik Liebl.
 					<dl class="dl-horizontal">
 						<dt>OS/Environments</dt>
 						<dd>Mac, Linux, Unix, Ubuntu, Windows</dd>
-					</dl>
+					</dl>-->
 					<h2>Presentations and Publications</h2>
 					<p><strong>Ann Arbor, MI. Invited Co-Presenter.</strong> <em>Rackham Graduate School</em>, "Building a Professional Presence Online," March 2015. Presented with Meredith Kahn.</p>
 					<p><strong>Ann Arbor, MI. Invited Panelist.</strong> <em>Interdisciplinary Committee on Organizational Studies (ICOS), University of Michigan</em>, "Toward an Open Science Framework: Finding Common Ground for Researchers, Developers, and Publishers," November 2014.</p>

@@ -12,7 +12,7 @@ description: Current CV for Dominik Liebl.
 	<a href="/files/CV_Dominik_Liebl.pdf" class="btn btn-default pull-right" title="Download CV as PDF">Download CV</a>
 				<div itemscope itemtype="http://data-vocabulary.org/Person">
 				<span itemprop="name"><h1>Dominik Liebl</h1></span>
-				<span itemprop="title"><strong>Associate professor for statistics</strong><br></span>
+				<span itemprop="title"><strong>Associate Professor for Statistics</strong><br></span>
 				<address>
 				<span itemprop="affiliation">Institute for Financial Economics and Statistics<br></span>
 				<span itemprop="affiliation">University of Bonn<br></span>

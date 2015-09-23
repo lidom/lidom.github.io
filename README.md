@@ -13,4 +13,4 @@ All content on this site is distributed under a [Creative Commons Attribution 4.
 
 Otherwise I will receive GA data from your website.
 
-The content of this site is a derivative of the webpage [jmcglone.com](http://jmcglone.com) used under CC by [Jonathan McGlone](http://jmcglone.com).
+The content of this site is a derivative of the webpage [jmcglone.com](http://jmcglone.com) used under CC by [Jonathan McGlone](https://github.com/jmcglone).

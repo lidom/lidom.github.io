@@ -40,6 +40,8 @@
 		<a href="http://www.dliebl.com">www.dliebl.com</a><br>
 	      </p>
 	      <p>
+                <i class="fa fa-fw fa-github"></i>
+		<a href="https://github.com/lidom/">Github</a><br>
 		<i class="fa fa-fw fa-linkedin"></i>
 		<a href="https://www.linkedin.com/in/dliebl">
 		  Linkedin</a>
@@ -77,12 +79,9 @@
 </div>
 
 <p class="lead">
-I am an associate professor at the 
-<a href="http://www.statistik.uni-bonn.de/">Department of Statistics</a>,
-<a href="http://www.uni-bonn.de">University of Bonn</a> <!--, in
-<a href="http://www.people.fas.harvard.edu/~airoldi/">Edo Airoldi</a>'s
-<a href="http://applied.stat.harvard.edu/">applied statistics lab.</a>
--->
+I am an associate professor for statistics at the 
+<a href="http://www.statistik.uni-bonn.de/">institute for financial economics and statistics</a>,
+<a href="http://www.uni-bonn.de">University Bonn.</a> 
 </p>
 
 <p class="lead">
@@ -106,25 +105,14 @@ several network analysis methods in the open source software library
 <h1 id="bio">Bio</h1>
 
 <ul>
-  <li>
-    <p><strong>2011–present</strong> Postdoctoral Researcher,
-<a href="http://statistics.fas.harvard.edu">Department of Statistics</a>,
-<a href="http://harvard.edu">Harvard University</a><br />
-<em>Advisor: <a href="http://www.people.fas.harvard.edu/~airoldi">Prof Edoardo M Airoldi</a>.</em></p>
-  </li>
-
-
-
 <li>
-<strong>Associate Professor for Statistics, University of Bonn, 2014-present</strong>
+<strong>2014-present</strong> Associate Professor for Statistics, Institute for Financial Economics and Statistics, University of Bonn
 </li>
 <li>
-<p><strong>Postdoc, Universit&eacute; Libre de Bruxelles, European Centre for Advanced Research in Economics and Statistics (ECARES), 2013-2014</strong></p>
+<p><strong>2013-2014</strong>, Postdoctoral Researcher, Universit&eacute; Libre de Bruxelles, European Centre for Advanced Research in Economics and Statistics (ECARES)</p>
 </li>
-<li><p><strong>Research Assistant, University of Cologne, Institute for Econometrics and Statistics, 2010-2013</strong></p></li>
-<li><p><strong>Scholar at the Cologne Graduate School (CGS), University of Cologne, 2008-2010</strong></p></li>
-
-
+<li><p><strong>2010-2013</strong>, Research Assistant, Institute for Econometrics and Statistics, University of Cologne</p></li>
+<li><p><strong>2008-2010</strong>, Scholar at the Cologne Graduate School (CGS), University of Cologne</p></li>
 
 </ul>
 
@@ -201,8 +189,9 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 
 <ul>
   <li>
-    <p>Tougether with my co-author <a href="https://de.linkedin.com/pub/oualid-bada-ph-d/82/521/6bb">Oualid Bada</a>, I am the creator and maintainer of the R-package  
-<a href="https://cran.r-project.org/web/packages/phtt/index.html">phtt</a>.</p>
+    <p>Together with my co-author <a href="https://de.linkedin.com/pub/oualid-bada-ph-d/82/521/6bb">Oualid Bada</a>, I am the creator and maintainer of the R-package  
+<a href="https://cran.r-project.org/web/packages/phtt/index.html">phtt</a>. The package provides estimation procedures for panel data with large dimensions n, T, and general forms of unobservable heterogeneous effects.
+</p>
   </li>
 </ul>
 
@@ -220,12 +209,13 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
       </div>
     </div>
 
-      <hr>
+    <hr>
 
       <footer>
         <p class="text-center">&copy; Dominik Liebl 2015</p>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    </div> <!-- /container -->  
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>

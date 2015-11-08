@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html class="no-js"> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -18,9 +15,6 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body id="body">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
     <div class="container">
       <div class="row">
@@ -61,7 +55,7 @@
 	    </div>
 	    <div>
               <ul class="nav bs-docs-sidenav">
-		<li><a href="CV_Dominik_Liebl.pdf">
+		<li><a src="CV_Dominik_Liebl.pdf">
 		  Full CV <i class="fa fa-fw fa-file-pdf-o"></i>
 		</a></li>
 	      </ul>
@@ -85,7 +79,7 @@ I am an associate professor for statistics at the
 </p>
 
 <p class="lead">
-My research interests lie in non and semi-parametric statistics and the analysis longitudinal/panel data.
+My research interests lie in non- and semi-parametric statistics and the analysis longitudinal/panel data.
 </p>
 
 <!--
@@ -168,7 +162,7 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 
 <ol>
   <li>
-    <p><strong>Liebl, D.i</strong>, Kneip, A. (2014). Modelling Electricity Prices as Functional Data on Random Domains, <em>Contributions in infinite-dimensional statistics and related topics, Proceedings of the 3rd International Workshop on Functional and Operatorial Statistics</em>, edited by Bongiorno, E.G., Salinelli, E., Goia, A., Vieu, p., 90–97.</p>
+    <p><strong>Liebl, D.</strong>, Kneip, A. (2014). Modelling Electricity Prices as Functional Data on Random Domains, <em>Contributions in infinite-dimensional statistics and related topics, Proceedings of the 3rd International Workshop on Functional and Operatorial Statistics</em>, Edited by: Bongiorno, E.G., Salinelli, E., Goia, A., Vieu, p., 90–97.</p>
   </li>
 </ol>
 
@@ -196,13 +190,6 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 </ul>
 
 
-<!--
-<hr id="references" />
-
-<h1 id="references">References</h1>
-
-<p>Available on request.</p>
--->
 
 	  </div>
 	</div>

@@ -24,7 +24,7 @@
 
     <div class="container">
       <div class="row">
-	<div class="col-md-3" data-spy="affix" data-offset-top="5000"
+	<div class="col-md-3" data-spy="affix" data-offset-top="10000"
 	     data-offset-bottom="0">
           <div class="bs-docs-sidebar affix"
 	       role="complementary">
@@ -37,7 +37,7 @@
 		<i class="fa fa-fw fa-twitter"></i>
 		<a href="https://twitter.com/gaborcsardi">@gaborcsardi</a> <br>
 		<i class="fa fa-fw fa-envelope"></i>
-		<a href="mailto:gcsardi@stat.harvard.edu">
+		<a href="mailto:gcsardi@stat.harvard.de">
 		  gcsardi@stat.harvard.edu</a><br>
 		<i class="fa fa-fw fa-globe"></i>
 		<a href="http://www.dliebl.com">www.dliebl.com</a><br>

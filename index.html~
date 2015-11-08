@@ -193,9 +193,10 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 <hr>
 
 <footer>
-        <p class="text-center">&copy; Dominik Liebl 2015</p>
-      </footer>
-    </div> <!-- /container -->  
+<p class="text-center">&copy; Dominik Liebl 2015</p>
+</footer>
+
+</div> <!-- /container -->  
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 

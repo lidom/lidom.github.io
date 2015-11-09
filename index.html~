@@ -50,6 +50,7 @@
 		<!-- <li><a data-scroll -->
 		<!--href="#presentations">Presentations</a></li> -->
 		<li><a data-scroll href="#software">Software</a></li>
+                <li><a data-scroll href="#miscellaneous">Miscellaneous</a></li>
 	      </ul>
 	    </div>
 	    <div>
@@ -104,13 +105,13 @@ the Hausdorff Center for Mathematics.
 <h1 id="bio">Bio</h1>
 
 <ul>
-<li><strong>2014-present</strong>, Associate Professor for Statistics, Institute for Financial Economics and Statistics, University of Bonn</p></li>
+<li><p><strong>2014-present</strong>, Associate Professor for Statistics, Institute for Financial Economics and Statistics, University of Bonn</p></li>
 <li><p><strong>2013-2014</strong>, Postdoctoral Researcher, Universit&eacute; Libre de Bruxelles, European Center for Advanced Research in Economics and Statistics (ECARES)</p>
 </li>
 <li><p><strong>2010-2013</strong>, Research Assistant, Institute for Econometrics and Statistics, University of Cologne</p></li>
 <li><p><strong>2010</strong>, Research Stay at the Working Group STAPH, Universit&eacute; Toulouse III, Paul Sabathier</p></li>
 <li><p><strong>2008-2010</strong>, Scholar at the Cologne Graduate School (CGS), University of Cologne</p></li>
-<li><p><strong>2002-2008</strong>, Diploma Student (M.Sc. equivalent) in economics, University Bonn and Charles University Prague</p></li>
+<li><p><strong>2002-2008</strong>, Undergraduate Student in Economics at the University of Bonn and the Charles University in Prague</p></li>
 </ul>
 
 <!-- <hr id="research"> -->
@@ -183,9 +184,9 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 
 <ul>
 <li>
-<p>Together with my co-author <a href="https://de.linkedin.com/pub/oualid-bada-ph-d/82/521/6bb">Oualid Bada</a>, I am the creator and maintainer of the R-package  
-<a href="https://cran.r-project.org/web/packages/phtt/index.html">phtt</a>. The package provides estimation procedures for panel data with large dimensions n, T, and general forms of unobservable heterogeneous effects.
-</p>
+<p>Together with my co-author <a href="https://de.linkedin.com/pub/oualid-bada-ph-d/82/521/6bb">Oualid Bada</a>, I am the creator and maintainer of the <strong>R-package  
+<a href="https://cran.r-project.org/web/packages/phtt/index.html">phtt</a></strong>.</p>
+<p>The package provides estimation procedures for panel data with large dimensions n, T, and general forms of unobservable heterogeneous effects.</p>
 </li>
 </ul>
 

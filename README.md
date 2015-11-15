@@ -11,3 +11,7 @@ All content on this site is distributed under a [Creative Commons Attribution 4.
 * Or, if you don't use Google Analytics, comment the block of code out entirely.
 
 Otherwise I will receive GA data from your website.
+
+Cedits go to:
+
+* James Walsh for: http://jpswalsh.github.io/academicons/

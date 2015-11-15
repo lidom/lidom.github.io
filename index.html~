@@ -36,7 +36,9 @@
 	      </p>
 	      <p>
                 <i class="ai ai-researchgate-square"></i>
-		<a href="https://www.researchgate.net/profile/Dominik_Liebl">Researchgate</a><br>
+		<a href="https://www.researchgate.net/profile/Dominik_Liebl"> Researchgate</a><br>
+                <i class="ai ai-google-scholar-square"></i>
+		<a href="https://scholar.google.de/citations?user=TQ4kSYgAAAAJ&hl=de"> Google Scholar</a><br>
                 <i class="fa fa-fw fa-github"></i>
 		<a href="https://github.com/lidom/">Github</a><br>
 		<i class="fa fa-fw fa-linkedin"></i>

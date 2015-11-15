@@ -10,7 +10,7 @@
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
    <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="fonts/academicons.css" >
+   <link rel="stylesheet" href="fonts/academicons.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -219,7 +219,7 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 <hr>
 
 <footer>
-<p class="text-center">&#xf25e; Dominik Liebl, 2015</p>  
+<p class="text-center"> Dominik Liebl, 2015</p>    fa-creative-commons
 </footer>
 
 </div> <!-- /container -->  

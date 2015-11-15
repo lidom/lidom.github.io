@@ -197,7 +197,7 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 
 <!-- miscellaneous ------------------------------------------------------- -->
 
-<h1 id="miscellaneous">Miscellaneous</h1>
+<h1<small> id="miscellaneous">Miscellaneous</small></h1>
 
 <ul>
 <li>
@@ -214,7 +214,7 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 <hr>
 
 <footer>
-<p class="text-center">&copy; Dominik Liebl 2015</p>
+<p class="text-center">&copy; Dominik Liebl, 2015</p>
 </footer>
 
 </div> <!-- /container -->  

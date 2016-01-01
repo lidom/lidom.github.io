@@ -233,7 +233,7 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 	<script>
 	 smoothScroll.init();
 	</script>
-	
+
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!-- 
 	<script>
@@ -246,6 +246,7 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
         ga('send', 'pageview');
         </script> 
 	-->
+
 	<a title="Google Analytics Alternative" href="http://clicky.com/100909721"><img alt="Google Analytics Alternative" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
 	<script src="//static.getclicky.com/js" type="text/javascript"></script>
 	<script type="text/javascript">try{ clicky.init(100909721); }catch(e){}</script>

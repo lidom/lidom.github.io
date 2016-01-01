@@ -83,7 +83,7 @@
 
 <p class="lead">
 I am an associate professor for statistics at the 
-<!--<a href="http://www.statistik.uni-bonn.de/">Institute for Financial Economics and Statistics</a>--> of the 
+<!--<a href="http://www.statistik.uni-bonn.de/">Institute for Financial Economics and Statistics</a>--> 
 <a href="http://www.statistik.uni-bonn.de/">University of Bonn</a>. 
 </p>
 
@@ -189,8 +189,10 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 <li>
 <p>
 I am affiliated with the 
-<a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">Hausdorff Center for Mathematics</a>. 
-<img src="img/Logo_HCM.jpg" alt="" width=50></a>
+<a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">Hausdorff Center for Mathematics</a>.</p> 
+<p>
+  <a href="http://www.hcm.uni-bonn.de">
+    <img src="img/Logo_HCM.jpg" alt="" width=50></a>
 </p>
 </li>
 </ul>

@@ -42,13 +42,8 @@
                 <i class="fa fa-fw fa-github"></i>
 		<a href="https://github.com/lidom/">Github</a><br>
 		<i class="fa fa-fw fa-linkedin"></i>
-		<a href="https://www.linkedin.com/in/dliebl">Linkedin</a><br>
-                <a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">
-                <img src="img/Logo_HCM.jpg" alt="" width=75></a>
-
-
-
-	      </p>
+		<a href="https://www.linkedin.com/in/dliebl">Linkedin</a>
+              </p>
 	    </div>
 	    <hr>
 	    <div class="hidden-print hidden-xs hidden-sm">
@@ -192,7 +187,11 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 <ul>
 <li>
 <p>
- I am affiliated with the <a href="http://www.hcm.uni-bonn.de">Hausdorff Center for Mathematics</a>.
+ I am affiliated with the <a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">Hausdorff Center for Mathematics</a>.
+<!--
+<a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">
+                <img src="img/Logo_HCM.jpg" alt="" width=75></a>
+-->
 </p> 
 </li>
 </ul>

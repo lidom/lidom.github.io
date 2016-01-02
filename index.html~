@@ -80,11 +80,11 @@
 <p class="lead">
 I am an associate professor for statistics at the 
 <!--<a href="http://www.statistik.uni-bonn.de/">Institute for Financial Economics and Statistics</a>--> 
-<a href="http://www.statistik.uni-bonn.de/">University of Bonn</a>. 
+<a href="http://www.statistik.uni-bonn.de/">University of Bonn</a>. My research interests lie in non-/semi-parametric statistics and the analysis of longitudinal/panel data.
 </p>
 
 <p class="lead">
-My research interests lie in non-/semi-parametric statistics and the analysis of longitudinal/panel data.<br>I particularly focus on the analysis of functional data which are high-dimensional data object that occur, e.g., in biomechanics through tracking camera system or as latent data objects as in economics.
+<br>I particularly focus on the analysis of functional data which are high-dimensional data objects that occur, e.g., in biomechanics through the use of tracking camera systems, but also as latent data objects as typically found in economic data sets.
 </p>
 
 <!--

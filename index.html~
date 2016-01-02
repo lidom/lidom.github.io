@@ -140,14 +140,13 @@ the Hausdorff Center for Mathematics.
 
 <ul>
 <li>
-<p><strong>Liebl, D.</strong> (2013). Modeling and forecasting electricity prices: A functional data perspective. <em>The Annals of Applied Statistics</em>, <strong>7</strong>, 1562-1592.
+<p><strong>Liebl, D.</strong> (2013). <a href="files/Liebl_AOAS_2013.pdf">Modeling and forecasting electricity prices: A functional data perspective</a>. <em>The Annals of Applied Statistics</em>, <strong>7</strong>, 1562-1592.
 </p>
 </li>
 
 
 <li>
-<p>Bada, O. and <strong>Liebl, D.</strong> (2014). The R-package phtt: Panel Data Analysis with
-Heterogeneous Time Trends. <em>Journal of Statistical Software</em>, <strong>59</strong>, 1-33.
+<p>Bada, O. and <strong>Liebl, D.</strong> (2014). <a href="http://www.jstatsoft.org/article/view/v059i06">The R-package phtt: Panel Data Analysis with Heterogeneous Time Trends</a>. <em>Journal of Statistical Software</em>, <strong>59</strong>, 1-33.
 </p>
 </li>
 
@@ -200,7 +199,7 @@ by Hayashi, F.
 Nonparametric Statistics (University of Bonn), BA-Course, Summer-Term 2015<br>
 Main Textbooks: <a href="http://www.degruyter.com/viewbooktoc/product/45258">Nichtparametrische Statistische Methoden</a>
 by B&uuml;ning, H., Trenkler, G.<br>
-<a href="">Local Polynomial Modelling and its Applications</a> by Fan, J. and Gijbels, I. 
+<a href="https://www.crcpress.com/Local-Polynomial-Modelling-and-Its-Applications-Monographs-on-Statistics/Fan-Gijbels/9780412983214">Local Polynomial Modelling and its Applications</a> by Fan, J. and Gijbels, I. 
 </p> 
 </li>
 </ul>

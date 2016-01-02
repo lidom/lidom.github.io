@@ -215,13 +215,11 @@ The package provides estimation procedures for panel data with large dimensions 
 <hr id="affiliations" />
 <!-- Institution and Affiliations ------------------------------------------------------- -->
 
-<h1 id="affiliations">Affiliations</h1>
-
-
+<h1 id="affiliations">Institutions & Affiliations</h1>
 
 <figure>
   <a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">
-  <img src="img/Logo_HCM.jpg" alt="HCM" width="75"></a>
+  <img src="img/Logo_HCM.jpg" alt="HCM" width="75"></a><br>
   <figcaption>Hausdorff Center for Mathematics.</figcaption>
 </figure>
 

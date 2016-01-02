@@ -180,16 +180,12 @@ approach, <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 
 
 <h1 id="teaching">Teaching</h1>
-
 <ul>
 <li>
 <p>
-Teaching Blabla
-<!-- I am affiliated with the <a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">Hausdorff Center for Mathematics</a>.-->
-<!--
-<a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">
-                <img src="img/Logo_HCM.jpg" alt="" width=75></a>
--->
+Advanced Statistics (German Sport University Cologne), MA, Winter-Term 2014/15<br>
+Textbook: An Introduction to Statistical Learning with Applications in R
+Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 </p> 
 </li>
 </ul>
@@ -219,13 +215,16 @@ The package provides estimation procedures for panel data with large dimensions 
 
 <figure>
   <a href="https://www.uni-bonn.de/">
-  <img src="img/logo_uni_bonn.png" alt="UoB" width="75"></a><br>
+  <img src="img/logo_uni_bonn.png" alt="UoB" width="55"></a><br>
   <figcaption>University of Bonn.</figcaption>
-</figure>
-<figure>
+  <br>
   <a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">
-  <img src="img/Logo_HCM.jpg" alt="HCM" width="75"></a><br>
+  <img src="img/Logo_HCM.jpg" alt="HCM" width="55"></a><br>
   <figcaption>Hausdorff Center for Mathematics.</figcaption>
+  <br>
+  <a href="https://www.dshs-koeln.de/english/">
+  <img src="img/Spoho.jpg" alt="SPOHO" width="55"></a><br>
+  <figcaption>German Sport University Cologne.</figcaption>
 </figure>
 
 

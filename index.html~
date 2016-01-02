@@ -84,7 +84,7 @@ I am an associate professor for statistics at the
 </p>
 
 <p class="lead">
-My research interests lie in non-/semi-parametric statistics and the analysis of longitudinal/panel data.
+My research interests lie in non-/semi-parametric statistics and the analysis of longitudinal/panel data.<br>I particularly focus on the analysis of functional data which are high-dimensional data object that occur, e.g., in biomechanics through tracking camera system or as latent data objects as in economics.
 </p>
 
 <!--
@@ -150,7 +150,7 @@ the Hausdorff Center for Mathematics.
 </p>
 </li>
 
-Liebl_et_al_HMS_2014
+
 <li>
 <p><strong>Liebl, D.</strong>, Willwacher, S., Hamill, J. and Br&uuml;ggemann, G. P. (2014). <a href="files/Liebl_et_al_HMS_2014.pdf">Ankle
 plantarflexion strength in rearfoot and forefoot runners: A novel clusteranalytic

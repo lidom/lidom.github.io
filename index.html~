@@ -84,7 +84,8 @@ I am an associate professor for statistics at the
 <br>
 <br>
 My research interests lie in non-/semi-parametric statistics and the analysis of longitudinal/panel data.
-A particular focus of my research lies on the analysis of <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">functional data</a> which are high-dimensional data objects. Functional data naturally occur, e.g., in biomechanics through the use of tracking camera systems, but also as latent data objects as, e.g., typically found in economic data sets.
+<br>
+A particular focus of my research lies on the analysis of <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">functional data</a> which are high-dimensional data objects. Functional data naturally occur, e.g., in biomechanics through the use of tracking camera systems, but also as latent data objects such as, e.g., typically found in economic data sets.
 </p>
 
 <!--
@@ -170,6 +171,17 @@ approach</a>. <em>Human Movement Science</em>, <strong>35</strong>, 104-125.
 </li>
 </ul>
 
+
+
+<h3 id="working-papers">Working Papers</h3>
+
+<ul>
+<li>
+<p><strong>Liebl, D.</strong> (2016). <a href="files/Liebl_LocLin_FDA_2016.pdf">Anti-Proportional Bandwidth Selection for Smoothing (Non-)Sparse Functional Data with Covariate Adjustments</a>.<br>
+With: <a href="files/Liebl_LocLin_FDA_Suppl_2016.pdf">Supplemental Paper</a>.
+</p>
+</li>
+</ul>
 
 
 

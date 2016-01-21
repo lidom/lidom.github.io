@@ -243,8 +243,7 @@ by Robert, C., Casella, G.,<br>
 <ul>
 <li>
 <p>Together with my co-author <a href="https://de.linkedin.com/pub/oualid-bada-ph-d/82/521/6bb">Oualid Bada</a>, I am the creator and maintainer of the <strong>R-package</strong>  
-<a href="https://cran.r-project.org/web/packages/phtt/index.html">phtt</a>.<br>
-The package provides estimation procedures for panel data with large dimensions n, T, and general forms of unobservable heterogeneous effects.</p>
+<a href="https://cran.r-project.org/web/packages/phtt/index.html">phtt</a>. The package provides estimation procedures for panel data with large dimensions n, T, and general forms of unobservable heterogeneous effects.</p>
 </li>
 </ul>
 

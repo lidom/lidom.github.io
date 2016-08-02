@@ -83,8 +83,10 @@ I am an Assistant Professor for Statistics at the
 <a href="http://www.statistik.uni-bonn.de/">University of Bonn</a>. 
 <br>
 <br>
-My research interests lie in non-/semi-parametric statistics and the analysis of longitudinal/panel data. A particular focus of my research are functional data structures, i.e., high-dimensional data objects. 
-<!--Functional data naturally occur, e.g., in biomechanics through the use of tracking camera systems, but also as latent data objects such as, e.g., typically found in economic data sets.
+My research interests focus on functional data analysis, semi- and nonparametric statistics, and panel data
+analysis.
+<!--in non-/semi-parametric statistics and the analysis of longitudinal/panel data. A particular focus of my research are functional data structures, i.e., high-dimensional data objects. 
+Functional data naturally occur, e.g., in biomechanics through the use of tracking camera systems, but also as latent data objects such as, e.g., typically found in economic data sets.
 -->
 </p>
 
@@ -195,7 +197,7 @@ Byshko, R., Dahmen, T., Gratkowski, M., Gruber, M., Quintana, J., Saupe, D., Vie
 
 <ul>
 <li>
-<p><strong>Liebl, D.</strong>, Kneip, A. (2016). <a href="files/Liebl_LocLin_FDA_2016.pdf">On the Optimal Reconstruction of Partially Observed Functional Data</a>. Incl: <a href="files/Liebl_LocLin_FDA_Suppl_2016.pdf">Supplemental Paper</a>. (submitted)
+<p><strong>Liebl, D.</strong>, Kneip, A. (2016). <a href="files/Liebl_Kneip_FDA_Pred_2016.pdf">On the Optimal Reconstruction of Partially Observed Functional Data</a>. Incl: <a href="files/Liebl_Kneip_FDA_Pred_Suppl_2016.pdf">Supplemental Paper</a>. (submitted)
 </p>
 </li>
 </ul>

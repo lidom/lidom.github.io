@@ -813,20 +813,26 @@ by Hayashi, F.
 <script src="js/main.js"></script>
 
 <script>
-smoothScroll.init();
+ smoothScroll.init();
 </script>
 
 
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->       
+<!-- Simple privacy-friendly web analytics by https://counter.dev/ -->
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
- ga('create', 'G-YL0JWC69HR', 'auto');
- ga('send', 'pageview');
+ if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"dliebl",utcoffset:"2"}))};sessionStorage.setItem("_swa","1");
 </script>
+
+
+
+<!-- <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     ga('create', 'G-YL0JWC69HR', 'auto');
+     ga('send', 'pageview');
+     </script> -->
 
 
 </body>

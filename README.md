@@ -7,10 +7,7 @@ All content on this site is distributed under a [Creative Commons Attribution 4.
 
 **NOTE:** If you fork or re-use this project, please be sure you:
 
-* Replace the Google Analytics tracking code with your own. (You find the code in the file 'index.html') 
-* Or, if you don't use Google Analytics, comment the block of code out entirely.
-
-Otherwise I will receive GA data from your website.
+* Replace the [www.counter.dev](www.counter.dev) tracking code in 'index.html' with your own. Otherwise I will receive web analytics data from your website.
 
 Cedits go to:
 

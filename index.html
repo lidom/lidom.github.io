@@ -1,938 +1,414 @@
 <!DOCTYPE html>
-<html class="no-js">
-
-<!-- For typography info, see:
-     https://getbootstrap.com/docs/4.1/content/typography/ -->
-
-	  <head>
-	      <meta charset="utf-8">
-	      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	      <title>Dominik Liebl</title>
-	      <meta name="description" content="">
-	      <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	      <link rel="shortcut icon" type="image/x-icon" href="img/ico/favicon.ico">
-	      <link rel="stylesheet" href="css/bootstrap.min.css">
-	      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	      <link rel="stylesheet" href="css/main.css">
-	      <link rel="stylesheet" href="fonts/academicons.css"> 	<!--Academicons from: https://jpswalsh.github.io/academicons/ -->
-	      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-	      <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-	  </head>
-	  <body id="body">
-	      <div class="container">
-	          <div class="row">
-	              <div class="col-md-3" data-spy="affix" data-offset-top="5000"
-	                   data-offset-bottom="0">
-                    <div class="bs-docs-sidebar affix"
-	                       role="complementary">
-	                      <div>
-	                          <a href="#body">
-	                              <img src="img/Dominik Liebl_23-240123_441.jpg" alt="" 
-		                                 class="img-rounded img-responsive" width=185></a> <!-- class="img-circle img-responsive" or "img-rounded img-responsive" -->
-	                              <h2>Contact</h2>
-	                              <p>
-		                            <!-- <i class="fa fa-fw fa-phone"></i>  +49 841 / 937 21828 <br> -->
-		                            <i class="fa fa-fw fa-envelope"></i> <a href="mailto:dominik.liebl@ku.de">dliebl@uni-bonn.de</a><br>
-		                            <i class="fa fa-fw fa-globe"></i>    <a href="http://www.dliebl.com">www.dliebl.com</a><br>
-                                    <i class="fa fa-fw fa-linkedin"></i>
-		                                <a href="https://www.linkedin.com/in/dliebl">LinkedIn</a><br>
-                                        <!-- <i class="fa fa-fw fa-twitter"></i>  <a href="https://twitter.com/domliebl">@domliebl</a><br> -->
-	                              </p>
-	                              <p>
-                                    <i class="ai ai-google-scholar icon-large"></i>
-		                                <a href="https://scholar.google.de/citations?user=TQ4kSYgAAAAJ&hl=en">&nbsp;Google-Scholar</a><br>
-                                    <i class="ai ai-orcid icon-large"></i>
-		                                <a href="https://orcid.org/0000-0002-9282-4394">&nbsp;ORCiD</a><br>
-		                            <i class="ai ai-arxiv icon-large"></i>
-		                                <a href="https://arxiv.org/a/liebl_d_1.html">&nbsp;arXiv</a><br>
-                                    <i class="fa fa-fw fa-github"></i>
-		                                <a href="https://github.com/lidom/">GitHub</a><br>
-                                    <!-- 
-		                                <i class="ai ai-researchgate icon-large"></i>
-		                                <a href="https://www.researchgate.net/profile/Dominik_Liebl">&nbsp;Researchgate</a><br> -->
-                                </p>
-	                      </div>
-	                      <hr>
-	                      <div class="hidden-print hidden-xs hidden-sm">
-                            <ul class="nav bs-docs-sidenav">
-                                <!-- 		<li><a data-scroll href="#body">About</a></li> -->
-		                            <li><a data-scroll href="#bio">Bio</a></li>
-		                            <li><a data-scroll href="#publications">Publications</a></li>
-		                            <!-- <li><a data-scroll href="#talks">Talks</a></li> -->
-		                            <li><a data-scroll href="#editorial_service">Editorial Services</a></li>
-		                            <li><a data-scroll href="#refereeing">Refereeing</a></li>
-		                            <li><a data-scroll href="#software">Software</a></li>
-                                <li><a data-scroll href="#teaching">Teaching</a></li>
-                                <!-- <li><a data-scroll href="#fundings_and_affiliations">Fundings & Affiliations</a></li> -->
-                                <li><a data-scroll href="#miscellaneous">Miscellaneous</a></li>
-	                          </ul>
-	                      </div>
-                        <!-- 	    <div>
-                             <ul class="nav bs-docs-sidenav">
-		                         <li>
-		                         <a href="files/LIEBL_CV.pdf">Full CV <i class="fa fa-fw fa-file-pdf-o"></i></a>
-		                         </li>
-	                           </ul>
-	                           </div> -->
-	                  </div>
-	              </div>
-	              
-                <div class="col-md-8" role="main">
-                    <div class="bs-docs-section">
-                        
-                        <!-- contact -->
-                        
-                        <!-- <p id="about"></p> -->
-                        
-                        <div class="page-header">
-                            <h1>Dominik Liebl</h1>
-                            <!-- <p class="lead">
-                                 statistics. computing. hight-dimensional data.
-                                 </p> -->
-                        </div>
-                        
-                        <p class="lead">
-                            <font size="+3"><strong>Welcome</strong></font><br>
-                            &hellip; to my website. I am a Professor of Statistics at the <a href="https://www.ku.de/en/">Catholic University of Eichstätt-Ingolstadt</a>. 
-                            <br>
-                            My research follows an application-oriented approach, focusing on real-world data problems that are both statistically challenging and practically relevant. My current methodological and theoretical interests include functional data analysis, nonparametric statistics, longitudinal data analysis, as well as simultaneous and causal inference. In addition, I am strongly committed to providing computational implementations of my work and regularly publish R packages on CRAN and GitHub to accompany my research papers.
-                        </p>
-                        
-                        
-                        
-                        <body id="bio">
-                            <h1 id="bio">Bio</h1>
-                            
-                            <ul>
-                                
-                                <li>
-                                    <p><strong>2026-present</strong>: Full Professor of Statistics at the <a href=https://www.ku.de/en/the-ku/faculties/wfi>Catholic University of Eichstätt-Ingolstadt</a></p>
-                                </li>
-                                
-                                <li>
-                                    <p><strong>2020-2026</strong>: Professor of Statistics at the <a href=https://www.econ.uni-bonn.de/ifs/en/statistics>Institute of Finance and Statistics</a>, University of Bonn</p>
-                                </li>
-                                
-                                <li>
-                                    <p><strong>2014-2020</strong>: Assistant Professor of Statistics at the <a href=https://www.econ.uni-bonn.de/ifs/en/statistics>Institute of Finance and Statistics</a>, University of Bonn</p>
-                                </li>
-                                <li>
-	                                  <p><strong>2019-March</strong>: Research Visit at the UC Berkeley <a href=https://simons.berkeley.edu/>Simons Institute for the Theory of Computing</a></p>
-                                </li>
-                                <li>
-	                                  <p><strong>2013-2014</strong>: Postdoctoral Researcher at the <a href=http://ecares.ulb.ac.be>European Center for Advanced Research in Economics and Statistics</a>, Universit&eacute; Libre de Bruxelles</p>
-                                </li>
-                                <!-- <li>
-	                                  <p><strong>2010-2013</strong>: Research Assistant at the <a href=http://www.wisostat.uni-koeln.de>Institute for Econometrics and Statistics</a>, University of Cologne</p>
-                                </li> -->
-                                <li>
-	                                  <p><strong>2010</strong>: Research Visit, Working Group STAPH, Universit&eacute; Toulouse-III-Paul-Sabathier</p>
-                                </li>
-                                <li>
-	                                  <p><strong>2008-2010</strong>: PhD at the <a href=http://www.wisostat.uni-koeln.de>Institute for Econometrics and Statistics</a>, University of Cologne</p> 
-                                      <!-- <a href="https://cgs.uni-koeln.de/en/doctoral-phd-programmes">Cologne Graduate School</a></p> -->
-                                </li>
-                                <!-- <li><p><strong>2003-2008</strong>: Undergraduate Studies in Economics at the University of Bonn and the Charles University in Prague</p></li> -->
-                            </ul> 
-
-                            
-                            <body id="publications">
-                                <h1 id="publications">Publications</h1>
-                                
-                                <h3 id="Methods">Publications in Statistics</h3>
-                                
-                                <ul>
-
-                                    <li>
-                                        <p>
-                                            Liebl, D. and Reimherr M. (2023). <a href="https://doi.org/10.1093/jrsssb/qkad026">Fast and fair simultaneous confidence bands for functional parameters</a>. <em>Journal of the Royal Statistical Society, Series B</em>, 85(3), 842-868
-                                            <a href="http://arxiv.org/abs/1910.00131" class="btn btn-xs btn-success">PDF</a>
-                                            <a href="http://www.dliebl.com/ffscb/" class="btn btn-xs btn-primary">R-package</a>
-                                        </p>
-                                    </li>
-
-                                    <li>
-                                        <p>
-                                            Pataky, T.C., Abramowicz, K., Liebl, D., Pini, A., Sj&ouml;stedt de Luna, S., and Schelin, L. (2023). <a href="https://doi.org/10.1007/s10182-021-00418-4">Simultaneous inference for functional data in sports biomechanics: Comparing statistical parametric mapping with interval-wise testing</a>. <em>AStA Advances in Statistical Analysis</em>, 107, 369-392
-                                            <a href="https://github.com/0todd0000/iwtspm" class="btn btn-xs btn-primary">Replication Codes</a>
-                                        </p>
-                                    </li>
-
-                                    
-                                    <li>
-                                        <p>
-                                            Bada, O., Kneip, A., Liebl, D., Mensinger, T., Gualtieri, J., and Sickles R. C. (2022). <a href="https://doi.org/10.1016/j.jeconom.2021.09.006" >A wavelet method for panel models with jump discontinuities in the parameters</a>. <em>Journal of Econometrics</em>, 226(2), 399-422
-                                            <a href="http://arxiv.org/abs/2109.10950" class="btn btn-xs btn-success">PDF</a>
-                                            <a href="files/Bada_et_al_2021_JOE_Supplementary_Paper.pdf" class="btn btn-xs btn-info">Supplementary Paper</a>
-                                            <a href="https://github.com/timmens/sawr/" class="btn btn-xs btn-primary">R-package</a>
-                                            <a href="https://github.com/timmens/simulation-saw-paper" class="btn btn-xs btn-primary">Replication Codes</a>
-                                        </p>
-                                    </li>                                                                        
-                                                                        
-                                    
-                                    <li>
-                                        <p>
-                                            Po&szlig;, D., Liebl, D., Kneip, A., Eisenbarth, H., Wager, T. D. and Feldman Barrett, L.	(2020). <a href="http://dx.doi.org/10.1111/rssb.12386">Super-consistent estimation of points of impact in nonparametric regression with functional predictors</a>. <em>Journal of the Royal Statistical Society, Series B</em>, 82(4), 1115-1140
-                                            <a href="http://arxiv.org/abs/1905.09021" class="btn btn-xs btn-success">PDF</a>
-                                            <a href="https://github.com/lidom/fdapoi" class="btn btn-xs btn-primary">R-package</a>
-                                            </p>
-                                    </li>	
-                                    
-                                    
-                                    <li>
-                                        <p>
-                                            Liebl, D., Rameseder, S. and Rust, C. (2020). <a href="https://doi.org/10.1080/10618600.2020.1754224">Improving estimation in functional linear regression with points of impact: Insights into Google AdWords</a>. <em>Journal of Computational and Graphical Statistics</em>, 29(4), 814-826
-                                            <a href="https://arxiv.org/abs/1709.02166" class="btn btn-xs btn-success">PDF</a>
-                                            <a href="https://github.com/christophrust/FunRegPoI" class="btn btn-xs btn-primary">R-package</a>
-                                            </p>
-                                    </li>	
-                                    
-                                    
-                                    
-                                    <li>
-                                        <p>
-                                            Kneip, A. and Liebl, D. (2020). <a href="https://projecteuclid.org/euclid.aos/1594972835">On the optimal reconstruction of partially observed functional data</a>. <em>The Annals of Statistics</em>, 48(3), 1692-1717
-                                            <a href="https://arxiv.org/abs/1710.10099" class="btn btn-xs btn-success">PDF</a>
-                                            <a href="https://github.com/lidom/ReconstPoFD" class="btn btn-xs btn-primary">R-package</a>	
-                                            </p>
-                                    </li>  
-                                    
-                                    
-                                    <li>
-                                        <p>
-                                            Liebl, D. (2019). <a href="http://dx.doi.org/10.1214/18-AOAS1230">Nonparametric testing for differences in electricity prices: The case of the Fukushima nuclear accident</a>. <em>The Annals of Applied Statistics</em>, 13(2), 1128-1146  
-                                            <a href="https://arxiv.org/abs/1711.03367" class="btn btn-xs btn-success">PDF</a>
-                                            <a href="files/Liebl_AOAS_2019_Supplementy_Paper.pdf" class="btn btn-xs btn-info">Supplementary Paper</a>
-                                            <a href="files/Liebl_AOAS_2019_Supplementary_R_Codes_and_Data.zip" class="btn btn-xs btn-primary">R-Codes & Data</a>
-                                            </p>
-                                    </li>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <li>
-                                        <p>
-                                            Liebl, D. and Rameseder, S. (2019). <a href="https://doi.org/10.1016/j.csda.2018.08.011">Partially observed functional data: The case of systematically missing parts</a>. <em>Computational Statistics &amp; Data Analysis</em>, 131, 104-115
-                                            <a href="https://arxiv.org/abs/1711.07715" class="btn btn-xs btn-success">PDF</a>
-                                            <a href="https://github.com/stefanrameseder/PartiallyFD" class="btn btn-xs btn-primary">R-package</a>
-                                        </p>
-                                    </li>
-                                    
-                                    
-                                    
-                                    <li>
-                                        <p> 
-                                            Liebl, D. and Walders, F. (2019). <a href="https://doi.org/10.1016/j.ecosta.2018.05.003">Parameter regimes in partial functional panel regression</a>. <em>Econometrics and Statistics</em>, 11, 105-115
-                                            <a href="https://arxiv.org/abs/1709.05786" class="btn btn-xs btn-success">PDF</a>
-                                            <a href="files/Liebl_Walders_ECOSTA_2018_Supplementary_Paper.pdf" class="btn btn-xs btn-info">Supplementary Paper</a>
-                                        </p>
-                                    </li>
-
-                                    
-                                    <li>
-                                        <p>
-                                            Liebl, D. (2019). <a href="https://doi.org/10.1016/j.jmva.2018.04.006">Inference for sparse and dense functional data with covariate adjustments</a>. <em>Journal of Multivariate Analysis</em>, 170, 315-335 
-                                            <a href="https://arxiv.org/abs/1601.07780" class="btn btn-xs btn-success">PDF</a>
-                                        </p>
-                                    </li>
-                                    
-                                    
-                                    <li>
-                                        <p>Bada, O. and Liebl, D. (2014). <a href="http://www.jstatsoft.org/article/view/v059i06">phtt: Panel data analysis with heterogeneous time trends in R</a>. <em>Journal of Statistical Software</em>, 59(6), 1-33 
-                                            <a href="https://cran.r-project.org/web/packages/phtt/index.html" class="btn btn-xs btn-primary">R-package</a>	
-                                        </p>
-                                    </li>
-                                    
-                                    
-                                    <li>
-                                        <p>Liebl, D. (2013). <a href="http://dx.doi.org/10.1214/13-AOAS652">Modeling and forecasting electricity prices: A functional data perspective</a>. <em>The Annals of Applied Statistics</em>, 7(3), 1562-1592 
-                                            <a href="https://arxiv.org/abs/1310.1628" class="btn btn-xs btn-success">PDF</a>
-                                            <a href="files/Liebl_AOAS_2013_Supplementary_RCodes_and_Data.zip" class="btn btn-xs btn-primary">R-Codes & Data</a>
-                                        </p>
-                                    </li>
-                                    
-                                </ul>
-                                
-                                <h3 id="Methods">Book Chapters &amp; Editorials</h3>
-                                <ul>
-
-                                    <li>
-                                        <p>
-                                            Groll, A. and Liebl, D. (2023). <a href="https://doi.org/10.1007/s10182-022-00453-9">Editorial special issue: Statistics in sports</a>. <em>AStA Advances in Statistical Analysis</em>, 107, 1-7 
-                                        </p>
-                                    </li>
-
-                                    <li>
-                                        <p>
-                                            Liebl, D. and Reimherr, M. (2020). 
-                                            Simultaneous Inference for Function-valued Parameters: a Fast and Fair Approach. <em>Functional and High-Dimensional
-                                                Statistics and Related Fields</em>. Edited by: Aneiros, G., Horova&#769;, I., Hu&#382;kova&#769;, M. and Vieu, P., pp. 153-159
-                                        </p>
-                                    </li>	
-                                    
-                                    <li>
-                                        <p>
-                                            Walders, F. and Liebl, D. (2017). Parameter regimes in partially functional linear regression for panel data. <em>Functional Statistics and Related Fields</em>. Edited by: Aneiros, G., Bongiorno, E. G., Cao, R., Vieu, P., pp. 261-270
-                                        </p>
-                                    </li>
-                                    
-                                    <li>
-                                        <p>
-                                            Liebl, D. and Kneip, A. (2014). Modelling electricity prices as functional data on random domains. <em>Contributions in Infinite-Dimensional Statistics and Related Topics</em>. Edited by: Bongiorno, E. G., Salinelli, E., Goia, A., Vieu, P., pp. 90-97
-                                        </p>
-                                    </li>
-                                    
-                                    
-                                    <li>
-                                        <p>
-                                            Liebl, D., Mosler, K. and Willwacher, S. (2012). Robust clustering of joint moment curves. <em>9. Symposium der Sektion Sportinformatik der Deutschen Vereinigung f&uuml;r Sportwissenschaft</em>. Edited by: Byshko, R., Dahmen, T., Gratkowski, M., Gruber, M., Quintana, J., Saupe, D., Vieten, M., Woll, A., pp. 68-73
-                                        </p>
-                                    </li>
-
-
-                                </ul>
-
-
-
-                                <h3 id="Methods">Further Publications</h3>
-                                <ul>
-
-                                    <li>
-                                        <p>
-                                            Richter, E., Liebl, D., Schulte, B., Lehmann, N., Fuhrmann, C., J&ouml;ckel, K-H., Ioannidis, J. P. A. and Streeck, H. (2023). 
-                                            <a href="https://doi.org/10.1038/s41598-023-32441-7">Analysis of fatality impact and seroprevalence surveys in a community sustaining a SARS-CoV-2 superspreading event</a>. <em>Scientific Reports</em>, 13, 5440
-                                        </p>
-                                    </li>    
-                                    
-                                    <li>
-                                        <p>
-                                            Liebl, D. (2022). <a href="https://doi.org/10.1016/j.gaitpost.2021.10.002">Letter to the Editor on: &quot;Comparing Groups of Time Dependent Data Using Locally Weighted Scatterplot Smoothing Alpha-Adjusted Serial T-tests&quot; by Niiler (2020)</a> <em>Gait &amp; Posture</em>, 92, 477-479
-                                            <a href="files/Liebl_2020_LttE_G&P.pdf" class="btn btn-xs btn-success">preprint</a>
-                                        </p>
-                                    </li>
-                                    
-                                    
-                                    <li>
-                                        <p>
-                                            Warmenhoven, J., Bargary, N., Liebl, D., Harrison, A. J., Robinson, M. A., Gunning, E. and Hooker, G. (2021). <a href="https://doi.org/10.1016/j.jbiomech.2020.110106">PCA of Waveforms and Functional PCA: A Primer for Biomechanics</a>. <em>Journal of Biomechanics</em>, 116, 110106
-                                        </p>
-                                    </li>
-                                    
-                                    <li>
-                                        <p>
-                                            Hollander, K., Liebl, D., Willwacher, S., Meining, S., Mattes, K. and Zech, A. (2019). <a href="https://doi.org/10.1177/0363546519849920">Adaptation of running biomechanics to repeated barefoot running: A randomized controlled study</a>. <em>The American Journal of Sports Medicine</em>, 47(8), 1975-1983
-                                        </p>
-                                    </li>
-
-                                    <li>
-                                        <p>
-                                            Pataky, T. C., Vanrenterghem, J., Robinson, M. A. and Liebl, D. (2019). <a href="https://doi.org/10.1016/j.jbiomech.2019.05.018">On the validity of statistical parametric mapping for nonuniformly and heterogeneously smooth one-dimensional biomechanical data</a>. <em>Journal of Biomechanics</em>, 91, 114-123
-                                        </p>
-                                    </li>		
-                                    
-                                    <li>
-                                        <p>
-                                            Hamacher, D., Liebl, D., H&ouml;dl, C., He&szlig;ler, V., Kniewasser, C. K., Th&ouml;nnessen, T. and Zech, A. (2019). <a href="https://www.frontiersin.org/articles/10.3389/fphys.2018.01955/full">Gait stability and its influencing factors in older adults</a>. <em>Frontiers in Physiology</em>, 9.
-                                        </p>
-                                    </li>
-                                    
-		                                
-                                    <li>
-                                        <p>
-                                            Zech, A., Meining, S., H&ouml;tting, K., Liebl, D., Mattes, K. and Hollander, K. (2018). <a href="http://link.springer.com/article/10.1007/s00421-018-3997-6">Effects of barefoot and footwear conditions on learning of a dynamic balance task: A randomized controlled study</a>. <em>European Journal of Applied Physiology</em>, 118(12), 2699-2706.	
-                                        </p>
-                                    </li>
-		
-                                    
-                                    
-                                    <li>
-                                        <p>
-                                            Liebl, D., Willwacher, S., Hamill, J. and Br&uuml;ggemann, G. P. (2014). <a href="https://doi.org/10.1016/j.humov.2014.03.008">Ankle plantarflexion strength in rearfoot and forefoot runners: A novel clusteranalytic approach</a>. <em>Human Movement Science</em>, 35, 104-125 
-                                            <a href="files/Liebl_et_al_HMS_2014.pdf" class="btn btn-xs btn-success">preprint</a>
-                                        </p>  
-                                    </li>
-                                    
-                                    
-                                </ul>
-                                
-
-                                
-                                <h3 id="Methods">PhD Thesis</h3>
-                                <ul>
-                                    <li>
-                                        <p>Liebl, D. (2013). <a href="https://kups.ub.uni-koeln.de/5302/">Contributions to functional data analysis with applications to modeling time series and panel data</a>. <em>PhD-Thesis - University of Cologne</em>
-                                        </p>
-                                    </li>	
-                                </ul>
-                                
-                                
-                                <h3 id="Methods">Open Reviews</h3>
-                                <ul>
-                                    <li>
-                                        <p>Liebl, D. (2020). <a href="https://osf.io/cdnsk/">Open Review of the Manuscript: 
-	                                          <em>An Analysis of Sars-Cov-2 Viral Load by Patient Age</em>  
-	                                          by Terry C. Jones, 
-	                                          Barbara M&uuml;hlemann, 
-	                                          Talitha Veith, 
-	                                          Marta Zuchowski​, 
-	                                          J&ouml;rg Hofmann, 
-	                                          Angela Stein​, 
-	                                          Anke Edelmann​, 
-	                                          Victor Max Corman​, and 
-	                                          Christian Drosten</a>. 
-                                        </p>
-                                    </li>	
-                                </ul>
-                                
-                                
-                                
-<h3 id="working-papers">Working Papers and Work in Progress</h3>
-<ul>
-
-<li>
-<p>
-Fang, C. and Liebl, D. <a href="https://arxiv.org/abs/2512.06804">Making Event Study Plots Honest: A Functional Data Approach to Causal Inference</a> (under review)
-<a href="https://arxiv.org/abs/2512.06804" class="btn btn-xs btn-success">PDF</a>
-</p>
-</li>
-
-<li>
-<p>
-Ofner, M., H&ouml;rmann, S., Kraus, D., Liebl, D. <a href="https://arxiv.org/abs/2505.08721">Testing the Missing Completely at Random Assumption for Functional Data</a> (under review) 
-<a href="https://arxiv.org/abs/2505.08721" class="btn btn-xs btn-success">PDF</a>
-</p>
-</li>
-
-<li>
-<p>
-Creutzinger, M., Liebl, D., Mensinger, T. and Sharp, J. <a href="files/Creutzinger_et_al_2026.pdf">Adaptive Simultaneous Prediction Bands in Concurrent Functional Linear Regression</a> (under review) 
-<a href="files/Creutzinger_et_al_2026.pdf" class="btn btn-xs btn-success">PDF</a>
-</p>
-</li>
-
-<li>
-<p>
-Kneip A., Liebl, D., and Otto, S. Combining Concurrent and Historical Functional Linear Regression 
-</p>
-</li>
-                                    
-<li>
-<p>
-Telschow, F.J.E. and Liebl D. Generalized Kac-Rice formulas for Non-Constant Critical Value Functions
-</p>
-</li>
-
-
-
-                                    
-                                    
-                                <!-- </ul>
-
-                                <h3 id="work-in-progress">Work in Progress</h3>
-                                <ul> -->
-	                                  
-                                    <!-- <li>
-                                         <p>
-                                         Liebl, D., Willwacher, S., Hamill, J. and Br&uuml;ggemann, G. P. Take off your shoes! Analyzing the foot strike behavior of habitual shod runners when running barefoot
-                                         </p>
-                                         </li> -->
-                                    
-                                    
-                                   <!-- <li>
-                                        <p>
-                                            Liebl, D. and Mensinger, T. Fair causal inference with functional data
-                                        </p>
-                                    </li>
-                                    
-                                    
-                                    
-                                    
-                                    <li>
-                                        <p>
-                                            Bada, O. and Liebl, D. A subsampled penalty criterion to estimate the number of non-vanishing common factors in large panels
-                                        </p>
-                                    </li>
-                                    
-                                    
-                                    <li>
-                                        <p>
-                                            Liebl, D. On the minor role of bandwidth selection when smoothing sparse to dense functional data
-                                        </p>
-                                    </li>
-                                    
-                                    
-                                    <li>
-                                        <p>
-                                            Liebl, D. and Rust, C. Directed local testing in the functional linear model
-                                        </p>
-                                    </li> -->
-                                    
-                                    
-                                    
-                                    <!-- <li>
-                                        <p>
-                                            Gider, J. and Liebl, D. Observe the unobservable: Firm value and firm-specific heterogeneity in time trends
-                                        </p>
-                                    </li> -->
-                                    
-                                    
-                                <!-- </ul>  -->
-                                
-                                
-                                <!-- <body id="talks"> 
-                                     <h1 id="talks">Recent &amp; Upcoming Talks</h1>
-                                     <ul> -->
-                                
-                                
-<!-- <li>
-<p>
-Workshop on Functional Data Analysis and Beyond, Dec. 3-14, 2018, Creswick Melbourne, Australia (<strong>invited by Aurore Delaigle, Debashis Paul, and Fr&eacute;d&eacute;ric Ferraty</strong>).
-</p>
-</li>
-
-
-<li>
-<p>
-11th International Conference on Computational and Methodological Statistics (CMStatistics 2018), Dec. 14-16, 2018, University of Pisa, Italy (<strong>invited by Gil Gonz&aacute;lez Rodr&iacute;guez</strong>) 
-</p>
-</li>
-
-
-<li>
-<p>
-CRoNoS &amp; MDA 2019, 2nd Workshop on Multivariate Data and Software, Apr. 14-16, 2019, Limassol, Cyprus (<strong>invited by Alessandra Menafoglio</strong>)
-</p>
-</li>
-
-
-<li>
-<p>
-3rd International Workshop on Advances in Functional Data Analysis, May 23-24, 2019, Castro Urdiales, Spain (<strong>invited by Paula Navarro</strong>)
-</p>
-</li> -->
-
-
-
-<!-- <li>
-<p>
-Workshop on New Developments in Econometrics and Time Series, June 6-7, 2019, Graz, Austria (<strong>invited by H. Dette, M. Hallin and S. H&ouml;rmann</strong>)
-</p>
-</li>
-
-
-<li>
-<p>
-European Meeting of Statisticians (EMS 2019), Jul. 22-26, 2019, Palermo, Italy (<strong>invited by Laura Sangalli</strong>)
-</p>
-</li>  -->
-
-
-<!-- <li>
-<p>
-10th International Workshop on Simulation and Statistics, Sept. 2-6, 2019, Salzburg, Austria (<strong>invited by Siegfried H&ouml;rmann</strong>)
-</p>
-</li> -->
-
-
-<!-- <li>
-<p>
-Seminar Talk, Ume&aring; University, Sweden, Oct. 30
-</p>
-</li>
-
-<li>
-<p>
-Seminar Talk, University College Dublin, Ireland, Nov. 7
-</p>
-</li>
-
-<li>
-<p>
-Seminar Talk, University Carlos III Madrid, Spain, Nov. 25
-</p>
-</li>
-
-<li>
-<p>
-12th International Conference on Computational and Methodological Statistics (CMStatistics 2019), London, UK, Dec. 14-16, 2019 (invited by Alexander Aue) 
-</p>
-</li>
-
-
-<li>
-<p>
-Seminar Talk, Weierstrass Institute for Applied Analysis and Stochastics (WIAS) and Humboldt-University Berlin, Germany, Jan. 8, 2020 (invited by Sonja Greven)
-</p>
-</li>
-
-
-<li>
-<p>
-International Symposium on Nonparametric Statistics (ISNPS 2020), Paphos, Cyprus, Jun. 15-19, 2020 (invited by Siegfried H&ouml;rmann) 
-</p>
-</li>
-
-
-<li>
-<p>
-5th International Workshop on Functional and Operatorial Statistics (IWFOS 2020), Brno, Czech Republic, Jun. 24-27, 2020 (invited by Philippe Vieu, Germ&aacute;n Aneiros, Ivana Horov&aacute;, and Marie Hu&scaron;kov&aacute;) 
-</p>
-</li>
-
-<li>
-<p>
-International Forum in Statistics, Bejing, China, Jul. 11-12, 2020 
-(invited by Regina Liu) 
-</p>	
-</li> 
-
-
-<li>
-<p>
-International Workshop: Functional and Complex Data Analysis, Bejing University, China, Aug. 23-26, 2020 (invited by Fang Yao) 	
-</p>	
-</li> 
-
-
-</ul>
-
--->
-
-
-
-
-<body id="editorial_service"> 
-<h1 id="editorial_service">Editorial Services</h1>
-
-<ul>
-
-<li>
-<p>
-Associate Editor (2021-2024), <a href="https://rss.onlinelibrary.wiley.com/journal/14679876"><em>Journal of the Royal Statistical Society: Series C</em></a>
-</p> 
-</li>
-<li>
-<p>
-Guest Editor (2020-2022), Special Issue: Statistics in Sports, <a href="https://www.springer.com/journal/10182"><em>AStA-Advances in Statistical Analysis</em></a> (with Andreas Groll, TU Dortmund University)
-</p> 
-</li>
-
-<li>
-<p>
-Member of the Statistical Advisory Board (since 2022), <a href="https://www.sciencedirect.com/journal/human-movement-science/about/editorial-board"><em>Human Movement Science</em></a>
-</p> 
-</li>
-
-
-</ul>
-
-
-
-
-
-<body id="refereeing"> 
-    <h1 id="refereeing">Refereeing</h1>
-    <p class="font-weight-normal">
-        The Annals of Statistics (AOS), 
-        Journal of the Royal Statistical Society: Series B (JRSSB), 
-        Journal of the American Statistical Association (JASA), 
-        Biometrika,
-        The Annals of Applied Statistics (AOAS),  
-        Journal of the Royal Statistical Society: Series C (JRSSC), 
-        Journal of Time Series Analysis (JTSA), 
-        Computational Statistics &amp; Data Analysis (CSDA), 
-        Statistical Modeling: An International Journal (SMIJ), 
-        Advances in Statistical Analysis (AStA), 
-        Econometrics and Statistics (ECOSTA), 
-        Advances in Data Analysis and Classification (ADAC), 
-        Journal of Computational and Graphical Statistics (JCGS), 
-        Journal of Applied Statistics (JAS), 
-        Energy Economics (ENEECO), 
-        International Journal of Forecasting (IJF),
-        TEST: Journal of the Spanish Society of Statistics and Operations Research,
-        Journal of Statistical Planning and Inference (JSPI), 
-        Journal of Multivariate Analysis (JMVA), 
-        Statistica Sinica (SS), 
-        Statistics and Probability Letters (STAPRO)
-    </p>
-
-
-<body id="software">
-<h1 id="software">Software</h1>
-
-<ul>
-
-<li>
-<p>
-Together with my co-author <a href="https://de.linkedin.com/pub/oualid-bada-ph-d/82/521/6bb">Oualid Bada</a>, I am the creator and maintainer of the R-package <a href="https://github.com/lidom/R-package-phtt">phtt</a>. The package provides estimation procedures for panel data with general forms of unobservable heterogeneous effects. 
-    <!--
-         <a href = "http://www.r-pkg.org/pkg/phtt"><img src = "http://www.r-pkg.org/badges/version/phtt"></a>
-         <a href = "http://www.r-pkg.org/pkg/phtt"><img src = "http://cranlogs.r-pkg.org/badges/phtt"></a>
-    -->
-</p>
-</li>
-
-
-<li>
-<p>
-R-package <a href="https://github.com/christophrust/FunRegPoI">FunRegPoI</a>
-</p>
-</li>
-
-
-<li>
-<p>
-R-package <a href="https://github.com/lidom/PartiallyFD">PartiallyFD</a>
-</p>
-</li>
-
-
-<li>
-<p>
-R-package <a href="https://github.com/lidom/ReconstPoFD">ReconstPoFD</a>
-</p>
-</li>
-
-
-
-<li>
-    <p>
-        R-package <a href="https://github.com/lidom/fdapoi">fdapoi</a>
-    </p>
-</li>
-
-
-<li>
-    <p>
-        R-package 
-        <a href="https://github.com/timmens/sawr/">sawr</a>
-    </p>
-</li>
-
-
-<li>
-<p>
-R-package <a href="https://github.com/lidom/ffscb">ffscb</a>
-</p>
-</li>
-
-</ul>
-
-
-
-
-<body id="teaching"> 
-<h1 id="teaching">Teaching Portfolio</h1>
-<h3>Excerpt of past and current courses:</h3>
-
-<ul>
-
-
-<li>
-<p>
-Computational Statistics/Data Science (M.Sc., B.Sc., and PhD) at the University Bonn. 
-<!--<br> Main Textbook: <a href="http://faculty.marshall.usc.edu/gareth-james/ISL/">Introduction to Statistical Learning</a>.  -->
-Contents: Statistical Learning, Regression Analysis, Classification, Resampling Methods, Linear Model Selection and Regularization, Multiple Testing, Doubly Robust Machine Learning, Tree-Based Methods, Functional Data Analysis   
-</p> 
-</li>
-
-
-<!-- 
-<li>
-<p>
-The beginnings of a lecture script for Computational Statistics (fun side project in German): <a href="http://www.dliebl.com/Computational_Statistics_Script/">Online Skrip (German)</a> 
-</p> 
-</li> 
--->
-
-
-<!-- <li>
-<p>
-Computational Statistics, Master course at the University of Bonn
-<br> 
-Main Textbooks: <a href="http://www.springer.com/br/book/9780387212395">Monte Carlo Statistical Methods</a> by Robert, C., Casella, G.,
-<br>
-<a href="http://www.springer.com/cn/book/9780387402727">All of Statistics: A Concise Course in Statistical Inference</a> by Wasserman, L., and
-<br>
-<a href="http://press.princeton.edu/titles/8355.html">Nonparametric Econometrics: Theory and Practice</a> by Li, Q. and Racine, J. S.
-<br>
-</p> 
-</li> -->
-
-<!--
-<li>
-<p>
-Research Module in Econometrics & Statistics, Master Course at the University Bonn<br>
-<a href="http://www.dliebl.com/RM_ES_Script/">Course Material</a> -->
-</p> 
-</li>
-
-
-<!-- 
-<li>
-<p>
-Short lecture <a href="files/Intro2FDA.html">A Gentle Introduction to Functional Data Analysis</a> at the University of Passau<br>
-Main Textbook: <a href="https://www.crcpress.com/Introduction-to-Functional-Data-Analysis/Kokoszka-Reimherr/p/book/9781498746342">Introduction to Functional Data Analysis</a> by Kokoszka, P., and Reimherr, M.<br> 
-<a href="https://github.com/lidom/Intro2FDA">Course Material</a>
-</p> 
-</li> 
--->
-
-
-<!-- <li>
-<p>
-Advanced Statistics, Master course at the German Sport University Cologne<br>  
-Main Textbook: <a href="http://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learning with Applications in R</a> by James, G., Witten, D., Hastie, T., and Tibshirani, R.
-</p> 
-</li> -->
-
-<li>
-<p>
-Econometrics (M.Sc. and PhD) at the University of Bonn. Contents: Probability Theory, Test Theory, Multiple Linear Regression, Small- and Large Sample Inference, Maximum Likelihood Inference, Instrumental Variable Estimation, Panel Data Analysis, Time Series Analysis, Causal Inference 
-<!--Main Textbook: <a href="http://press.princeton.edu/titles/6946.html">Econometrics</a> by Hayashi, F.-->
-</p> 
-</li>
-
-<li>
-<p>
-Nonparametric Statistics (B.Sc.) at the University of Bonn. Contents: Rank Statistics and Tests, Nonparametric Density Estimation, Nonparametric Hypothesis Testing, Nonparametric Regression
-        <!-- 
-        <br> 
-        Main Textbooks: <a href="http://www.degruyter.com/viewbooktoc/product/45258">Nichtparametrische Statistische Methoden</a>
-        by B&uuml;ning, H., Trenkler, G., and<br>
-        <a href="https://www.crcpress.com/Local-Polynomial-Modelling-and-Its-Applications-Monographs-on-Statistics/Fan-Gijbels/9780412983214">Local Polynomial Modelling and its Applications</a> by Fan, J. and Gijbels, I. Contents: Test Theory, Linear Rank Statistics, Introduction to Mathematical Statistics, Kernel Density Estimation, Nonparametric Regression Analysis 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dominik Liebl</title>
+  <meta name="description" content="Dominik Liebl, Professor of Statistics at the Catholic University of Eichstätt-Ingolstadt. Functional data analysis, nonparametric statistics, simultaneous and causal inference.">
+  <meta name="author" content="Dominik Liebl">
+  <meta name="color-scheme" content="light">
+
+  <link rel="icon" href="img/ico/favicon.ico" sizes="any">
+  <link rel="icon" href="img/ico/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/ico/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <!-- Icons: Font Awesome Free 6.7.2 (CC BY 4.0), arXiv logo from Simple Icons (CC0) -->
+  <symbol id="i-arxiv" viewBox="0 0 24 24"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z"/></symbol>
+  <symbol id="i-creative-commons" viewBox="0 0 496 512"><path d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"/></symbol>
+  <symbol id="i-envelope" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></symbol>
+  <symbol id="i-github" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></symbol>
+  <symbol id="i-google-scholar" viewBox="0 0 512 512"><path d="M390.9 298.5c0 0 0 .1 .1 .1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z"/></symbol>
+  <symbol id="i-linkedin-in" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></symbol>
+  <symbol id="i-orcid" viewBox="0 0 512 512"><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z"/></symbol>
+</svg>
+
+<div class="page">
+
+  <aside class="sidebar">
+    <a class="portrait" href="#top">
+      <img src="img/portrait-gauss.jpg" alt="Dominik Liebl pointing at a normal density and its upper tail" width="500" height="500">
+    </a>
+
+    <ul class="links">
+      <li><a href="mailto:dominik.liebl@ku.de"><svg class="icon"><use href="#i-envelope"/></svg>dominik.liebl@ku.de</a></li>
+      <li><a href="https://www.linkedin.com/in/dliebl"><svg class="icon"><use href="#i-linkedin-in"/></svg>LinkedIn</a></li>
+      <li><a href="https://github.com/lidom/"><svg class="icon"><use href="#i-github"/></svg>GitHub</a></li>
+      <!-- <li><a href="https://twitter.com/domliebl">@domliebl</a></li> -->
+    </ul>
+    <ul class="links">
+      <li><a href="https://scholar.google.de/citations?user=TQ4kSYgAAAAJ&amp;hl=en"><svg class="icon"><use href="#i-google-scholar"/></svg>Google Scholar</a></li>
+      <li><a href="https://orcid.org/0000-0002-9282-4394"><svg class="icon"><use href="#i-orcid"/></svg>ORCID</a></li>
+      <li><a href="https://arxiv.org/a/liebl_d_1.html"><svg class="icon"><use href="#i-arxiv"/></svg>arXiv</a></li>
+      <!-- <li><a href="https://www.researchgate.net/profile/Dominik_Liebl">ResearchGate</a></li> -->
+    </ul>
+
+    <nav class="toc" aria-label="Sections">
+      <a href="#bio">Bio</a>
+      <a href="#publications">Publications</a>
+      <!-- <a href="#talks">Talks</a> -->
+      <a href="#editorial">Editorial Services</a>
+      <a href="#refereeing">Refereeing</a>
+      <a href="#software">Software</a>
+      <a href="#teaching">Teaching</a>
+      <!-- <a href="#fundings">Fundings &amp; Affiliations</a> -->
+      <a href="#miscellaneous">Miscellaneous</a>
+      <!-- <a href="files/LIEBL_CV.pdf">Full CV</a> -->
+    </nav>
+  </aside>
+
+  <main id="top">
+
+    <header class="masthead">
+      <h1>Dominik Liebl</h1>
+      <p class="role">Professor of Statistics · KU Eichstätt-Ingolstadt</p>
+      <svg class="curve" viewBox="0 0 600 56" preserveAspectRatio="none" role="img" aria-label="A smooth curve with a simultaneous confidence band">
+        <title>A fast and fair simultaneous confidence band. Obviously.</title>
+        <path class="band" d="M0.0,14.5 L7.5,12.7 L15.0,11.1 L22.5,9.6 L30.0,8.4 L37.5,7.4 L45.0,6.9 L52.5,6.6 L60.0,6.8 L67.5,7.2 L75.0,8.0 L82.5,8.9 L90.0,10.0 L97.5,11.1 L105.0,12.3 L112.5,13.3 L120.0,14.2 L127.5,15.0 L135.0,15.5 L142.5,15.8 L150.0,15.9 L157.5,15.8 L165.0,15.7 L172.5,15.4 L180.0,15.2 L187.5,15.1 L195.0,15.1 L202.5,15.3 L210.0,15.8 L217.5,16.6 L225.0,17.7 L232.5,19.1 L240.0,20.8 L247.5,22.6 L255.0,24.7 L262.5,26.7 L270.0,28.8 L277.5,30.8 L285.0,32.6 L292.5,34.1 L300.0,35.3 L307.5,36.2 L315.0,36.6 L322.5,36.8 L330.0,36.5 L337.5,36.0 L345.0,35.2 L352.5,34.2 L360.0,33.1 L367.5,32.0 L375.0,30.9 L382.5,30.0 L390.0,29.2 L397.5,28.6 L405.0,28.2 L412.5,27.9 L420.0,27.9 L427.5,28.0 L435.0,28.1 L442.5,28.2 L450.0,28.2 L457.5,28.1 L465.0,27.8 L472.5,27.2 L480.0,26.4 L487.5,25.2 L495.0,23.7 L502.5,21.9 L510.0,19.8 L517.5,17.6 L525.0,15.3 L532.5,13.0 L540.0,10.7 L547.5,8.6 L555.0,6.7 L562.5,5.1 L570.0,3.8 L577.5,2.8 L585.0,2.3 L592.5,2.0 L600.0,2.1 L600.0,27.2 L592.5,26.4 L585.0,26.0 L577.5,25.9 L570.0,26.1 L562.5,26.8 L555.0,27.8 L547.5,29.1 L540.0,30.6 L532.5,32.3 L525.0,34.1 L517.5,35.8 L510.0,37.5 L502.5,39.0 L495.0,40.3 L487.5,41.4 L480.0,42.1 L472.5,42.5 L465.0,42.7 L457.5,42.6 L450.0,42.3 L442.5,41.9 L435.0,41.4 L427.5,40.9 L420.0,40.5 L412.5,40.2 L405.0,40.2 L397.5,40.3 L390.0,40.6 L382.5,41.2 L375.0,41.9 L367.5,42.7 L360.0,43.6 L352.5,44.5 L345.0,45.3 L337.5,46.0 L330.0,46.4 L322.5,46.5 L315.0,46.3 L307.5,45.7 L300.0,44.8 L292.5,43.5 L285.0,42.0 L277.5,40.1 L270.0,38.2 L262.5,36.1 L255.0,34.0 L247.5,32.1 L240.0,30.3 L232.5,28.7 L225.0,27.4 L217.5,26.4 L210.0,25.7 L202.5,25.3 L195.0,25.3 L187.5,25.4 L180.0,25.7 L172.5,26.2 L165.0,26.6 L157.5,27.0 L150.0,27.3 L142.5,27.5 L135.0,27.5 L127.5,27.2 L120.0,26.8 L112.5,26.2 L105.0,25.5 L97.5,24.8 L90.0,24.0 L82.5,23.3 L75.0,22.8 L67.5,22.5 L60.0,22.5 L52.5,22.8 L45.0,23.5 L37.5,24.6 L30.0,26.0 L22.5,27.8 L15.0,29.8 L7.5,32.1 L0.0,34.4 Z"/>
+        <path class="fn" d="M0.0,24.5 L7.5,22.4 L15.0,20.5 L22.5,18.7 L30.0,17.2 L37.5,16.0 L45.0,15.2 L52.5,14.7 L60.0,14.6 L67.5,14.9 L75.0,15.4 L82.5,16.1 L90.0,17.0 L97.5,17.9 L105.0,18.9 L112.5,19.8 L120.0,20.5 L127.5,21.1 L135.0,21.5 L142.5,21.6 L150.0,21.6 L157.5,21.4 L165.0,21.1 L172.5,20.8 L180.0,20.5 L187.5,20.2 L195.0,20.2 L202.5,20.3 L210.0,20.8 L217.5,21.5 L225.0,22.5 L232.5,23.9 L240.0,25.5 L247.5,27.4 L255.0,29.3 L262.5,31.4 L270.0,33.5 L277.5,35.5 L285.0,37.3 L292.5,38.8 L300.0,40.0 L307.5,40.9 L315.0,41.5 L322.5,41.6 L330.0,41.5 L337.5,41.0 L345.0,40.3 L352.5,39.4 L360.0,38.4 L367.5,37.4 L375.0,36.4 L382.5,35.6 L390.0,34.9 L397.5,34.4 L405.0,34.2 L412.5,34.1 L420.0,34.2 L427.5,34.4 L435.0,34.7 L442.5,35.0 L450.0,35.3 L457.5,35.4 L465.0,35.2 L472.5,34.9 L480.0,34.2 L487.5,33.3 L495.0,32.0 L502.5,30.5 L510.0,28.7 L517.5,26.7 L525.0,24.7 L532.5,22.6 L540.0,20.6 L547.5,18.8 L555.0,17.2 L562.5,15.9 L570.0,14.9 L577.5,14.3 L585.0,14.1 L592.5,14.2 L600.0,14.7"/>
+      </svg>
+    </header>
+
+    <div class="intro">
+      <p>
+        <strong>Welcome</strong> &hellip; to my website. I am a Professor of Statistics at the <a href="https://www.ku.de/en/">Catholic University of Eichstätt-Ingolstadt</a>.
+      </p>
+      <p>
+        My research follows an application-oriented approach, focusing on real-world data problems that are both statistically challenging and practically relevant. My current methodological and theoretical interests include functional data analysis, nonparametric statistics, longitudinal data analysis, as well as simultaneous and causal inference. In addition, I am strongly committed to providing computational implementations of my work and regularly publish R packages on CRAN and GitHub to accompany my research papers.
+      </p>
+    </div>
+
+
+    <!-- ================================================================ -->
+    <section id="bio">
+      <h2>Bio</h2>
+      <ul class="timeline">
+        <li><span class="when">2026–present</span><span>Full Professor of Statistics at the <a href="https://www.ku.de/en/the-ku/faculties/wfi">Catholic University of Eichstätt-Ingolstadt</a></span></li>
+        <li><span class="when">2020–2026</span><span>Professor of Statistics at the <a href="https://www.econ.uni-bonn.de/ifs/en/statistics">Institute of Finance and Statistics</a>, University of Bonn</span></li>
+        <li><span class="when">2014–2020</span><span>Assistant Professor of Statistics at the <a href="https://www.econ.uni-bonn.de/ifs/en/statistics">Institute of Finance and Statistics</a>, University of Bonn</span></li>
+        <li><span class="when">2019</span><span>Research Visit (March) at the <a href="https://simons.berkeley.edu/">Simons Institute for the Theory of Computing</a>, UC Berkeley</span></li>
+        <li><span class="when">2013–2014</span><span>Postdoctoral Researcher at the <a href="https://ecares.ulb.ac.be/">European Center for Advanced Research in Economics and Statistics</a>, Université Libre de Bruxelles</span></li>
+        <!-- <li><span class="when">2010–2013</span><span>Research Assistant at the Institute for Econometrics and Statistics, University of Cologne</span></li> -->
+        <li><span class="when">2010</span><span>Research Visit, Working Group STAPH, Université Toulouse III – Paul Sabatier</span></li>
+        <li><span class="when">2008–2010</span><span>PhD at the <a href="https://wisostat.uni-koeln.de/">Institute for Econometrics and Statistics</a>, University of Cologne</span></li>
+        <!-- <li><span class="when">2003–2008</span><span>Undergraduate Studies in Economics at the University of Bonn and the Charles University in Prague</span></li> -->
+      </ul>
+    </section>
+
+
+    <!-- ================================================================ -->
+    <section id="publications">
+      <h2>Publications</h2>
+
+      <h3>Working Papers</h3>
+      <ul class="pubs">
+        <li>
+          Fang, C. and <span class="me">Liebl, D.</span> <a class="title" href="https://arxiv.org/abs/2512.06804">Making event study plots honest: A functional data approach to causal inference</a>. <span class="note">Under review.</span>
+          <span class="tags"><a href="https://arxiv.org/abs/2512.06804">PDF</a></span>
+        </li>
+        <li>
+          Ofner, M., Hörmann, S., Kraus, D. and <span class="me">Liebl, D.</span> <a class="title" href="https://arxiv.org/abs/2505.08721">Testing the missing completely at random assumption for functional data</a>. <span class="note">Under review.</span>
+          <span class="tags"><a href="https://arxiv.org/abs/2505.08721">PDF</a></span>
+        </li>
+        <li>
+          Creutzinger, M., <span class="me">Liebl, D.</span>, Mensinger, T. and Sharp, J. <a class="title" href="files/Creutzinger_et_al_2026.pdf">Adaptive simultaneous prediction bands in concurrent functional linear regression</a>. <span class="note">Under review.</span>
+          <span class="tags"><a href="files/Creutzinger_et_al_2026.pdf">PDF</a></span>
+        </li>
+        <li>
+          Kneip, A., <span class="me">Liebl, D.</span> and Otto, S. <span class="title">Combining concurrent and historical functional linear regression</span>. <span class="note">Work in progress.</span>
+        </li>
+        <li>
+          Telschow, F. J. E. and <span class="me">Liebl, D.</span> <span class="title">Generalized Kac-Rice formulas for non-constant critical value functions</span>. <span class="note">Work in progress.</span>
+        </li>
+        <!--
+        <li>Liebl, D. and Mensinger, T. <span class="title">Fair causal inference with functional data</span></li>
+        <li>Bada, O. and Liebl, D. <span class="title">A subsampled penalty criterion to estimate the number of non-vanishing common factors in large panels</span></li>
+        <li>Liebl, D. <span class="title">On the minor role of bandwidth selection when smoothing sparse to dense functional data</span></li>
+        <li>Liebl, D. and Rust, C. <span class="title">Directed local testing in the functional linear model</span></li>
+        <li>Gider, J. and Liebl, D. <span class="title">Observe the unobservable: Firm value and firm-specific heterogeneity in time trends</span></li>
+        <li>Liebl, D., Willwacher, S., Hamill, J. and Brüggemann, G. P. <span class="title">Take off your shoes! Analyzing the foot strike behavior of habitual shod runners when running barefoot</span></li>
         -->
-    </p> 
-</li>
+      </ul>
 
-</ul>
+      <h3>Publications in Statistics</h3>
+      <ul class="pubs">
+        <li>
+          <span class="me">Liebl, D.</span> and Reimherr, M. (2023). <a class="title" href="https://doi.org/10.1093/jrsssb/qkad026">Fast and fair simultaneous confidence bands for functional parameters</a>. <em>Journal of the Royal Statistical Society, Series B</em>, 85(3), 842–868.
+          <span class="tags"><a href="https://arxiv.org/abs/1910.00131">PDF</a><a href="https://www.dliebl.com/ffscb/">R package</a></span>
+        </li>
+        <li>
+          Pataky, T. C., Abramowicz, K., <span class="me">Liebl, D.</span>, Pini, A., Sjöstedt de Luna, S. and Schelin, L. (2023). <a class="title" href="https://doi.org/10.1007/s10182-021-00418-4">Simultaneous inference for functional data in sports biomechanics: Comparing statistical parametric mapping with interval-wise testing</a>. <em>AStA Advances in Statistical Analysis</em>, 107, 369–392.
+          <span class="tags"><a href="https://github.com/0todd0000/iwtspm">Code</a></span>
+        </li>
+        <li>
+          Bada, O., Kneip, A., <span class="me">Liebl, D.</span>, Mensinger, T., Gualtieri, J. and Sickles, R. C. (2022). <a class="title" href="https://doi.org/10.1016/j.jeconom.2021.09.006">A wavelet method for panel models with jump discontinuities in the parameters</a>. <em>Journal of Econometrics</em>, 226(2), 399–422.
+          <span class="tags"><a href="https://arxiv.org/abs/2109.10950">PDF</a><a href="files/Bada_et_al_2021_JOE_Supplementary_Paper.pdf">Supplement</a><a href="https://github.com/timmens/sawr/">R package</a><a href="https://github.com/timmens/simulation-saw-paper">Code</a></span>
+        </li>
+        <li>
+          Poß, D., <span class="me">Liebl, D.</span>, Kneip, A., Eisenbarth, H., Wager, T. D. and Feldman Barrett, L. (2020). <a class="title" href="https://doi.org/10.1111/rssb.12386">Super-consistent estimation of points of impact in nonparametric regression with functional predictors</a>. <em>Journal of the Royal Statistical Society, Series B</em>, 82(4), 1115–1140.
+          <span class="tags"><a href="https://arxiv.org/abs/1905.09021">PDF</a><a href="https://github.com/lidom/fdapoi">R package</a></span>
+        </li>
+        <li>
+          <span class="me">Liebl, D.</span>, Rameseder, S. and Rust, C. (2020). <a class="title" href="https://doi.org/10.1080/10618600.2020.1754224">Improving estimation in functional linear regression with points of impact: Insights into Google AdWords</a>. <em>Journal of Computational and Graphical Statistics</em>, 29(4), 814–826.
+          <span class="tags"><a href="https://arxiv.org/abs/1709.02166">PDF</a><a href="https://github.com/christophrust/FunRegPoI">R package</a></span>
+        </li>
+        <li>
+          Kneip, A. and <span class="me">Liebl, D.</span> (2020). <a class="title" href="https://doi.org/10.1214/19-AOS1864">On the optimal reconstruction of partially observed functional data</a>. <em>The Annals of Statistics</em>, 48(3), 1692–1717.
+          <span class="tags"><a href="https://arxiv.org/abs/1710.10099">PDF</a><a href="https://github.com/lidom/ReconstPoFD">R package</a></span>
+        </li>
+        <li>
+          <span class="me">Liebl, D.</span> (2019). <a class="title" href="https://doi.org/10.1214/18-AOAS1230">Nonparametric testing for differences in electricity prices: The case of the Fukushima nuclear accident</a>. <em>The Annals of Applied Statistics</em>, 13(2), 1128–1146.
+          <span class="tags"><a href="https://arxiv.org/abs/1711.03367">PDF</a><a href="files/Liebl_AOAS_2019_Supplementy_Paper.pdf">Supplement</a><a href="files/Liebl_AOAS_2019_Supplementary_R_Codes_and_Data.zip">Code &amp; Data</a></span>
+        </li>
+        <li>
+          <span class="me">Liebl, D.</span> and Rameseder, S. (2019). <a class="title" href="https://doi.org/10.1016/j.csda.2018.08.011">Partially observed functional data: The case of systematically missing parts</a>. <em>Computational Statistics &amp; Data Analysis</em>, 131, 104–115.
+          <span class="tags"><a href="https://arxiv.org/abs/1711.07715">PDF</a><a href="https://github.com/stefanrameseder/PartiallyFD">R package</a></span>
+        </li>
+        <li>
+          <span class="me">Liebl, D.</span> and Walders, F. (2019). <a class="title" href="https://doi.org/10.1016/j.ecosta.2018.05.003">Parameter regimes in partial functional panel regression</a>. <em>Econometrics and Statistics</em>, 11, 105–115.
+          <span class="tags"><a href="https://arxiv.org/abs/1709.05786">PDF</a><a href="files/Liebl_Walders_ECOSTA_2018_Supplementary_Paper.pdf">Supplement</a></span>
+        </li>
+        <li>
+          <span class="me">Liebl, D.</span> (2019). <a class="title" href="https://doi.org/10.1016/j.jmva.2018.04.006">Inference for sparse and dense functional data with covariate adjustments</a>. <em>Journal of Multivariate Analysis</em>, 170, 315–335.
+          <span class="tags"><a href="https://arxiv.org/abs/1601.07780">PDF</a></span>
+        </li>
+        <li>
+          Bada, O. and <span class="me">Liebl, D.</span> (2014). <a class="title" href="https://doi.org/10.18637/jss.v059.i06">phtt: Panel data analysis with heterogeneous time trends in R</a>. <em>Journal of Statistical Software</em>, 59(6), 1–33.
+          <span class="tags"><a href="https://cran.r-project.org/package=phtt">R package</a></span>
+        </li>
+        <li>
+          <span class="me">Liebl, D.</span> (2013). <a class="title" href="https://doi.org/10.1214/13-AOAS652">Modeling and forecasting electricity prices: A functional data perspective</a>. <em>The Annals of Applied Statistics</em>, 7(3), 1562–1592.
+          <span class="tags"><a href="https://arxiv.org/abs/1310.1628">PDF</a><a href="files/Liebl_AOAS_2013_Supplementary_RCodes_and_Data.zip">Code &amp; Data</a></span>
+        </li>
+      </ul>
+
+      <h3>Book Chapters &amp; Editorials</h3>
+      <ul class="pubs">
+        <li>
+          Groll, A. and <span class="me">Liebl, D.</span> (2023). <a class="title" href="https://doi.org/10.1007/s10182-022-00453-9">Editorial special issue: Statistics in sports</a>. <em>AStA Advances in Statistical Analysis</em>, 107, 1–7.
+        </li>
+        <li>
+          <span class="me">Liebl, D.</span> and Reimherr, M. (2020). <span class="title">Simultaneous inference for function-valued parameters: A fast and fair approach</span>. In: <em>Functional and High-Dimensional Statistics and Related Fields</em>, edited by Aneiros, G., Horová, I., Hušková, M. and Vieu, P., pp. 153–159.
+        </li>
+        <li>
+          Walders, F. and <span class="me">Liebl, D.</span> (2017). <span class="title">Parameter regimes in partially functional linear regression for panel data</span>. In: <em>Functional Statistics and Related Fields</em>, edited by Aneiros, G., Bongiorno, E. G., Cao, R. and Vieu, P., pp. 261–270.
+        </li>
+        <li>
+          <span class="me">Liebl, D.</span> and Kneip, A. (2014). <span class="title">Modelling electricity prices as functional data on random domains</span>. In: <em>Contributions in Infinite-Dimensional Statistics and Related Topics</em>, edited by Bongiorno, E. G., Salinelli, E., Goia, A. and Vieu, P., pp. 90–97.
+        </li>
+        <li>
+          <span class="me">Liebl, D.</span>, Mosler, K. and Willwacher, S. (2012). <span class="title">Robust clustering of joint moment curves</span>. In: <em>9. Symposium der Sektion Sportinformatik der Deutschen Vereinigung für Sportwissenschaft</em>, edited by Byshko, R., Dahmen, T., Gratkowski, M., Gruber, M., Quintana, J., Saupe, D., Vieten, M. and Woll, A., pp. 68–73.
+        </li>
+      </ul>
+
+      <h3>Further Publications</h3>
+      <ul class="pubs">
+        <li>
+          Richter, E., <span class="me">Liebl, D.</span>, Schulte, B., Lehmann, N., Fuhrmann, C., Jöckel, K.-H., Ioannidis, J. P. A. and Streeck, H. (2023). <a class="title" href="https://doi.org/10.1038/s41598-023-32441-7">Analysis of fatality impact and seroprevalence surveys in a community sustaining a SARS-CoV-2 superspreading event</a>. <em>Scientific Reports</em>, 13, 5440.
+        </li>
+        <li>
+          <span class="me">Liebl, D.</span> (2022). <a class="title" href="https://doi.org/10.1016/j.gaitpost.2021.10.002">Letter to the Editor on: &ldquo;Comparing groups of time dependent data using locally weighted scatterplot smoothing alpha-adjusted serial t-tests&rdquo; by Niiler (2020)</a>. <em>Gait &amp; Posture</em>, 92, 477–479.
+          <span class="tags"><a href="files/Liebl_2020_LttE_G&amp;P.pdf">PDF</a></span>
+        </li>
+        <li>
+          Warmenhoven, J., Bargary, N., <span class="me">Liebl, D.</span>, Harrison, A. J., Robinson, M. A., Gunning, E. and Hooker, G. (2021). <a class="title" href="https://doi.org/10.1016/j.jbiomech.2020.110106">PCA of waveforms and functional PCA: A primer for biomechanics</a>. <em>Journal of Biomechanics</em>, 116, 110106.
+        </li>
+        <li>
+          Hollander, K., <span class="me">Liebl, D.</span>, Willwacher, S., Meining, S., Mattes, K. and Zech, A. (2019). <a class="title" href="https://doi.org/10.1177/0363546519849920">Adaptation of running biomechanics to repeated barefoot running: A randomized controlled study</a>. <em>The American Journal of Sports Medicine</em>, 47(8), 1975–1983.
+        </li>
+        <li>
+          Pataky, T. C., Vanrenterghem, J., Robinson, M. A. and <span class="me">Liebl, D.</span> (2019). <a class="title" href="https://doi.org/10.1016/j.jbiomech.2019.05.018">On the validity of statistical parametric mapping for nonuniformly and heterogeneously smooth one-dimensional biomechanical data</a>. <em>Journal of Biomechanics</em>, 91, 114–123.
+        </li>
+        <li>
+          Hamacher, D., <span class="me">Liebl, D.</span>, Hödl, C., Heßler, V., Kniewasser, C. K., Thönnessen, T. and Zech, A. (2019). <a class="title" href="https://doi.org/10.3389/fphys.2018.01955">Gait stability and its influencing factors in older adults</a>. <em>Frontiers in Physiology</em>, 9, 1955.
+        </li>
+        <li>
+          Zech, A., Meining, S., Hötting, K., <span class="me">Liebl, D.</span>, Mattes, K. and Hollander, K. (2018). <a class="title" href="https://doi.org/10.1007/s00421-018-3997-6">Effects of barefoot and footwear conditions on learning of a dynamic balance task: A randomized controlled study</a>. <em>European Journal of Applied Physiology</em>, 118(12), 2699–2706.
+        </li>
+        <li>
+          <span class="me">Liebl, D.</span>, Willwacher, S., Hamill, J. and Brüggemann, G. P. (2014). <a class="title" href="https://doi.org/10.1016/j.humov.2014.03.008">Ankle plantarflexion strength in rearfoot and forefoot runners: A novel clusteranalytic approach</a>. <em>Human Movement Science</em>, 35, 104–125.
+          <span class="tags"><a href="files/Liebl_et_al_HMS_2014.pdf">PDF</a></span>
+        </li>
+      </ul>
+
+      <h3>PhD Thesis</h3>
+      <ul class="pubs">
+        <li>
+          <span class="me">Liebl, D.</span> (2013). <a class="title" href="https://kups.ub.uni-koeln.de/5302/">Contributions to functional data analysis with applications to modeling time series and panel data</a>. PhD thesis, University of Cologne.
+        </li>
+      </ul>
+
+      <h3>Open Reviews</h3>
+      <ul class="pubs">
+        <li>
+          <span class="me">Liebl, D.</span> (2020). <a class="title" href="https://osf.io/cdnsk/">Open review of the manuscript <em>An Analysis of SARS-CoV-2 Viral Load by Patient Age</em></a> by Jones, T. C., Mühlemann, B., Veith, T., Zuchowski, M., Hofmann, J., Stein, A., Edelmann, A., Corman, V. M. and Drosten, C.
+        </li>
+      </ul>
+    </section>
 
 
+    <!-- ================================================================
+    <section id="talks">
+      <h2>Recent &amp; Upcoming Talks</h2>
+      <ul class="plain">
+        <li>Workshop on Functional Data Analysis and Beyond, Dec. 3–14, 2018, Creswick Melbourne, Australia (invited by Aurore Delaigle, Debashis Paul, and Frédéric Ferraty)</li>
+        <li>11th International Conference on Computational and Methodological Statistics (CMStatistics 2018), Dec. 14–16, 2018, University of Pisa, Italy (invited by Gil González Rodríguez)</li>
+        <li>CRoNoS &amp; MDA 2019, 2nd Workshop on Multivariate Data and Software, Apr. 14–16, 2019, Limassol, Cyprus (invited by Alessandra Menafoglio)</li>
+        <li>3rd International Workshop on Advances in Functional Data Analysis, May 23–24, 2019, Castro Urdiales, Spain (invited by Paula Navarro)</li>
+        <li>Workshop on New Developments in Econometrics and Time Series, June 6–7, 2019, Graz, Austria (invited by H. Dette, M. Hallin and S. Hörmann)</li>
+        <li>European Meeting of Statisticians (EMS 2019), Jul. 22–26, 2019, Palermo, Italy (invited by Laura Sangalli)</li>
+        <li>10th International Workshop on Simulation and Statistics, Sept. 2–6, 2019, Salzburg, Austria (invited by Siegfried Hörmann)</li>
+        <li>Seminar Talk, Umeå University, Sweden, Oct. 30</li>
+        <li>Seminar Talk, University College Dublin, Ireland, Nov. 7</li>
+        <li>Seminar Talk, University Carlos III Madrid, Spain, Nov. 25</li>
+        <li>12th International Conference on Computational and Methodological Statistics (CMStatistics 2019), London, UK, Dec. 14–16, 2019 (invited by Alexander Aue)</li>
+        <li>Seminar Talk, Weierstrass Institute for Applied Analysis and Stochastics (WIAS) and Humboldt-University Berlin, Germany, Jan. 8, 2020 (invited by Sonja Greven)</li>
+        <li>International Symposium on Nonparametric Statistics (ISNPS 2020), Paphos, Cyprus, Jun. 15–19, 2020 (invited by Siegfried Hörmann)</li>
+        <li>5th International Workshop on Functional and Operatorial Statistics (IWFOS 2020), Brno, Czech Republic, Jun. 24–27, 2020 (invited by Philippe Vieu, Germán Aneiros, Ivana Horová, and Marie Hušková)</li>
+        <li>International Forum in Statistics, Beijing, China, Jul. 11–12, 2020 (invited by Regina Liu)</li>
+        <li>International Workshop: Functional and Complex Data Analysis, Peking University, China, Aug. 23–26, 2020 (invited by Fang Yao)</li>
+      </ul>
+    </section>
+    -->
 
 
-<!-- 
-
-<hr id="fundings_and_affiliations" />
-<h1 id="fundings_and_affiliations">Fundings & Affiliations</h1>
-
-
-<ul>
-
-    <li>
-        <p>
-            My research is generously funded by the <a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">Hausdorff Center of Mathematics (HCM)</a>, a Cluster of Excellence at the University of Bonn, funded by the German Science Foundation (DFG).<br>
-            <figure>
-                
-                     <a href="https://www.uni-bonn.de/">
-                     <img src="img/logo_uni_bonn.jpg" alt="UoB" width="150"></a><br>
-                     <figcaption>University of Bonn.</figcaption>
-                     <br>
-                
-                <a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">
-                    <img src="img/Logo_hcm_4c_xxl.gif" alt="HCM" width="200"></a><br>
-                    <figcaption>Hausdorff Center for Mathematics.</figcaption>
-                         <br>
-                         <a href="https://www.dshs-koeln.de/english/">
-                         <img src="img/Spoho.jpg" alt="SPOHO" width="65"></a><br>
-                         <figcaption>German Sport University Cologne.</figcaption> 
-            </figure>
-        </p>  
-    </li>
+    <!-- ================================================================ -->
+    <section id="editorial">
+      <h2>Editorial Services</h2>
+      <ul class="timeline">
+        <li><span class="when">since 2022</span><span>Member of the Statistical Advisory Board, <a href="https://www.sciencedirect.com/journal/human-movement-science/about/editorial-board"><em>Human Movement Science</em></a></span></li>
+        <li><span class="when">2021–2024</span><span>Associate Editor, <a href="https://rss.onlinelibrary.wiley.com/journal/14679876"><em>Journal of the Royal Statistical Society: Series C</em></a></span></li>
+        <li><span class="when">2020–2022</span><span>Guest Editor, Special Issue: Statistics in Sports, <a href="https://www.springer.com/journal/10182"><em>AStA Advances in Statistical Analysis</em></a> (with Andreas Groll, TU Dortmund University)</span></li>
+      </ul>
+    </section>
 
 
-    <li>
-        <p>
-            I am member of the <a href="https://www.uni-bonn.de/en/research-and-teaching/research-profile/transdisciplinary-research-areas/tra-1-modelling/home?set_language=en">Transdisciplinary Research Area (TRA) Mathematics, Modelling and Simulation of Complex Systems</a> at the University of Bonn.
-            <figure>
-                <a href="https://www.uni-bonn.de/en/research-and-teaching/research-profile/transdisciplinary-research-areas/tra-1-modelling/home?set_language=en">
-                    <img src="img/TRA1.png" alt="TRA1" width="135"></a><br>
-                    <figcaption> </figcaption>
-            </figure>
-        </p> 
-    </li>
+    <!-- ================================================================ -->
+    <section id="refereeing">
+      <h2>Refereeing</h2>
+      <ul class="inline-list">
+        <li>The Annals of Statistics</li>
+        <li>Journal of the Royal Statistical Society: Series B</li>
+        <li>Journal of the American Statistical Association</li>
+        <li>Biometrika</li>
+        <li>The Annals of Applied Statistics</li>
+        <li>Journal of the Royal Statistical Society: Series C</li>
+        <li>Journal of Time Series Analysis</li>
+        <li>Computational Statistics &amp; Data Analysis</li>
+        <li>Statistical Modelling</li>
+        <li>AStA Advances in Statistical Analysis</li>
+        <li>Econometrics and Statistics</li>
+        <li>Advances in Data Analysis and Classification</li>
+        <li>Journal of Computational and Graphical Statistics</li>
+        <li>Journal of Applied Statistics</li>
+        <li>Energy Economics</li>
+        <li>International Journal of Forecasting</li>
+        <li>TEST</li>
+        <li>Journal of Statistical Planning and Inference</li>
+        <li>Journal of Multivariate Analysis</li>
+        <li>Statistica Sinica</li>
+        <li>Statistics &amp; Probability Letters</li>
+      </ul>
+    </section>
 
-    <li>
-        <p>
-            I was visiting associate (2022-2025) at the <a href="https://statistics.colostate.edu/">Department of Statistics of the Colorado State University</a>.<br>
-            <figure>
-                <a href="https://statistics.colostate.edu/">
-                    <img src="img/CSU-Ram-357.png" alt="CSU" width="125"></a><br>
-                    <figcaption>Colorado State University.</figcaption>
-            </figure>
-        </p> 
-    </li>
+
+    <!-- ================================================================ -->
+    <section id="software">
+      <h2>Software</h2>
+      <p>R packages accompanying my research papers:</p>
+      <ul class="plain">
+        <li><a class="pkg" href="https://github.com/lidom/ffscb">ffscb</a> — Fast and fair simultaneous confidence bands for functional parameters</li>
+        <li><a class="pkg" href="https://github.com/timmens/sawr/">sawr</a> — Wavelet method for panel models with jump discontinuities</li>
+        <li><a class="pkg" href="https://github.com/lidom/fdapoi">fdapoi</a> — Points of impact in nonparametric regression with functional predictors</li>
+        <li><a class="pkg" href="https://github.com/christophrust/FunRegPoI">FunRegPoI</a> — Functional linear regression with points of impact</li>
+        <li><a class="pkg" href="https://github.com/lidom/ReconstPoFD">ReconstPoFD</a> — Optimal reconstruction of partially observed functional data</li>
+        <li><a class="pkg" href="https://github.com/lidom/PartiallyFD">PartiallyFD</a> — Partially observed functional data with systematically missing parts</li>
+        <li><a class="pkg" href="https://github.com/lidom/R-package-phtt">phtt</a> — Panel data analysis with heterogeneous time trends (with <a href="https://de.linkedin.com/pub/oualid-bada-ph-d/82/521/6bb">Oualid Bada</a>; creator and maintainer)</li>
+      </ul>
+    </section>
 
 
-    <li>
-        <p>
-            I am member of the management committee of the <a href="https://www.cost.eu/actions/CA21163/">COST Action CA21163 - Text, functional and other high-dimensional data in econometrics: New models, methods, applications</a>, funded by the European Union.<br>
-            <figure>
-                <a href="https://www.cost.eu/actions/CA21163/">
-                    <img src="img/cost-logo.png" alt="COST" width="200"></a><br>
-                    <figcaption> </figcaption>
-            </figure>
-        </p> 
-    </li>
+    <!-- ================================================================ -->
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <p>A selection of past and current courses:</p>
+      <ul class="plain">
+        <li>
+          <strong>Computational Statistics / Data Science</strong> (B.Sc., M.Sc., PhD), University of Bonn.
+          Statistical learning, regression analysis, classification, resampling methods, linear model selection and regularization, multiple testing, doubly robust machine learning, tree-based methods, functional data analysis.
+        </li>
+        <li>
+          <strong>Econometrics</strong> (M.Sc., PhD), University of Bonn.
+          Probability theory, test theory, multiple linear regression, small- and large-sample inference, maximum likelihood inference, instrumental variable estimation, panel data analysis, time series analysis, causal inference.
+        </li>
+        <li>
+          <strong>Nonparametric Statistics</strong> (B.Sc.), University of Bonn.
+          Rank statistics and tests, nonparametric density estimation, nonparametric hypothesis testing, nonparametric regression.
+        </li>
+        <!--
+        <li><strong>Research Module in Econometrics &amp; Statistics</strong> (M.Sc.), University of Bonn. <a href="https://www.dliebl.com/RM_ES_Script/">Course material</a></li>
+        <li>A Gentle Introduction to Functional Data Analysis, short lecture at the University of Passau. <a href="files/Intro2FDA.html">Slides</a>, <a href="https://github.com/lidom/Intro2FDA">Course material</a></li>
+        <li><strong>Advanced Statistics</strong> (M.Sc.), German Sport University Cologne</li>
+        <li>The beginnings of a lecture script for Computational Statistics (fun side project in German): <a href="https://www.dliebl.com/Computational_Statistics_Script/">Online-Skript</a></li>
+        -->
+      </ul>
+    </section>
 
-</ul>
--->
 
-<body id="miscellaneous">
-<h1 id="miscellaneous">Miscellaneous</h1>
+    <!-- ================================================================
+    <section id="fundings">
+      <h2>Fundings &amp; Affiliations</h2>
+      <ul class="plain">
+        <li>My research was funded by the <a href="http://www.hcm.uni-bonn.de/people/profile/dominik-liebl/">Hausdorff Center for Mathematics (HCM)</a>, a Cluster of Excellence at the University of Bonn, funded by the German Research Foundation (DFG).</li>
+        <li>Member of the <a href="https://www.uni-bonn.de/en/research-and-teaching/research-profile/transdisciplinary-research-areas/tra-1-modelling">Transdisciplinary Research Area (TRA) Mathematics, Modelling and Simulation of Complex Systems</a> at the University of Bonn.</li>
+        <li>Visiting associate (2022–2025) at the <a href="https://statistics.colostate.edu/">Department of Statistics, Colorado State University</a>.</li>
+        <li>Member of the management committee of the <a href="https://www.cost.eu/actions/CA21163/">COST Action CA21163 – Text, functional and other high-dimensional data in econometrics</a>, funded by the European Union.</li>
+      </ul>
+    </section>
+    -->
 
-<ul>
-<li>
-<p>My former life took (mostly) place in <a href="http://www.judoinside.com/judoka/17194/Dominik_Liebl/judo-career">dojos</a>, where I used to wear a <a href="http://www.mittelbayerische.de/sport/regional/kelheim-nachrichten/nebenbei-zweifacher-deutscher-meister-21520-art46789.html">judogi</a>.
-</p>
-</li>
-</ul>
 
+    <!-- ================================================================ -->
+    <section id="miscellaneous">
+      <h2>Miscellaneous</h2>
+      <p>
+        My former life took (mostly) place in <a href="http://www.judoinside.com/judoka/17194/Dominik_Liebl/judo-career">dojos</a>, where I used to wear a <a href="http://www.mittelbayerische.de/sport/regional/kelheim-nachrichten/nebenbei-zweifacher-deutscher-meister-21520-art46789.html">judogi</a>.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><svg class="icon"><use href="#i-creative-commons"/></svg> 2026 Dominik Liebl · Content licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+    <p>Hand-written HTML. No p-values were hacked in the making of this page.</p>
+  </footer>
 
 </div>
-</div>
-</div>
-</div>
-
-<hr>
-
-<footer>
-<p class="text-center"><i class="fa fa-creative-commons"></i> Dominik Liebl, 2026</p>    
-</footer>
-
-</div> <!-- /container -->  
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/vendor/smooth-scroll.min.js"></script>	
-<script src="js/main.js"></script>
 
 <script>
- smoothScroll.init();
+  // Highlight the current section in the sidebar
+  (function () {
+    var links = Array.prototype.slice.call(document.querySelectorAll('.toc a[href^="#"]'));
+    var targets = links.map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); });
+    function spy() {
+      var current = null;
+      targets.forEach(function (s, i) {
+        if (s && s.getBoundingClientRect().top < window.innerHeight * 0.3) current = links[i];
+      });
+      links.forEach(function (a) { a.classList.toggle('active', a === current); });
+    }
+    window.addEventListener('scroll', spy, { passive: true });
+    spy();
+  })();
 </script>
-
-
 
 <!-- Simple privacy-friendly web analytics by https://counter.dev/ -->
 <script>
- if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"dliebl",utcoffset:"2"}))};sessionStorage.setItem("_swa","1");
+  if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"dliebl",utcoffset:"2"}))};sessionStorage.setItem("_swa","1");
 </script>
-
-
-
-<!-- <script>
-     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-     ga('create', 'G-YL0JWC69HR', 'auto');
-     ga('send', 'pageview');
-     </script> -->
-
 
 </body>
 </html>
-
